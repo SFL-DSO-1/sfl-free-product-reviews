@@ -1,0 +1,64 @@
+/*-----
+Main Style Sheet for Free Product Landing Page
+
+    - Theme Styles
+    - Global Styles
+    - Header Styles
+    - Jumbotron Styles
+    - Start Main Content(View) Styles
+-----*/
+
+
+/*----- Start Theme Styles -----*/
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+body {
+        padding-top: 3.5rem;
+}
+/*----- End Theme Styles -----*/
+
+/*----- Start Global Styles -----*/
+    .btn {
+        text-align: center;
+        margin: auto;
+    }
+/*----- End Global Styles -----*/
+
+/*----- Start Header Styles -----*/
+.jumbotron {
+    background-image: url('../img/SFL-WB-SHOPF-ProductP-ProteinBars-A.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: orange;
+}
+/*----- End Header Styles -----*/
+
+/*----- Start Jumbotron Styles -----*/
+.navbar-brand {
+    padding: 0;
+}
+/*----- End Jumbotron Styles -----*/
+
+/*----- Start Main Content Styles -----*/
+.view {
+    display: none;
+}
+#view-01 {
+    display: block;
+}
+.progress-bar {
+    width: 0%;
+}
+/*----- Start End Content Styles -----*/

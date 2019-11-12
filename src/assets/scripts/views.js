@@ -1,0 +1,30 @@
+$('#btn-01').click(function(){
+    $('#view-01').hide();
+    $('#view-02').show();
+    $('.progress-bar').css('width','17%').text('17%');
+});
+$('#btn-02').click(function(){
+    $('#view-02').hide();
+    $('#view-03').show();
+    $('.progress-bar').css('width','34%').text('34%');
+});
+$('#btn-03').click(function(){
+    $('#view-03').hide();
+    $('#view-04').show();
+    $('.progress-bar').css('width','51%').text('51%');
+});
+$('#btn-04').click(function(){
+    $('#view-04').hide();
+    $('#view-05').show();
+    $('.progress-bar').css('width','68%').text('68%');
+});
+$('#btn-05').click(function(){
+    $('#view-05').hide();
+    $('#view-06').show();
+    $('.progress-bar').css('width','84%').text('84%');
+});
+$('#btn-06').click(function(){
+    $('#view-06').hide();
+    $('#view-07').show();
+    $('.progress-bar').css('width','100%').text('100%');
+});

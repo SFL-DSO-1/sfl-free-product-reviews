@@ -1,7 +1,7 @@
 
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -10,72 +10,77 @@
     <title>Smart for Life Free Low Sugar Protein Bars</title>
 
     <link href="vendor/bootstrap-v4.0.0/boostrap.min.css" rel="stylesheet">
-
-    <style>
-          .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-          }
-
-          @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-              font-size: 3.5rem;
-            }
-          }
-          .jumbotron {
-            background-image: url('assets/img/SFL-WB-SHOPF-ProductP-ProteinBars-A.jpg');
-            background-repeat: no-repeat;
-            background-size: cover;
-            color: orange;
-          }
-    </style>
-    <link href="vendor/bootstrap-v4.0.0/jumbotron.css" rel="stylesheet">
+    <link href="assets/styles/main.css" rel="stylesheet">
     <script type="text/javascript" src="https://display.ugc.bazaarvoice.com/static/smartforlife/main_site/en_US/bvapi.js"></script>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-md fixed-top ">
-        <a class="navbar-brand" href="#">Smart for Life</a>
+        <a class="navbar-brand" href="#"><img class="img-fluid" src="assets/img/logo-175x73.png" alt="Smart for Life"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
     </nav>
 
-<main role="main">
+  <main role="main">
 
-  <!-- Main jumbotron for a primary marketing message or call to action -->
-  <div class="jumbotron">
-    <div class="container">
-      <h1 class="display-3">Get Your Free Protein Bars</h1>
-      
-    </div>
-  </div>
-
-  <div class="container">
-    <!-- Example row of columns -->
-    <div class="row">
-      <div class="col-md-12">
-          <p class="lead"></p>Just fill the survey and get a free bottle of your choice. It takes about 3 minutes and no credit card info is needed, no shipping fees charged, and no hidden costs whatsoever!</p>
-          <p><a class="btn btn-primary btn-lg" target="_blank" href="https://display.ugc.bazaarvoice.com/static/smartforlife/main_site/en_US/container.htm?bvaction=rr_submit_generic&bvfamilyProductId=3549990879310&bvcampaignId=001" role="button">Let's Start &raquo;</a></p>
-          <p>Giveaway Rules: Limit one bottle per product. Valid in the continental USA. Offer is only valid for orders placed in the last 60 days. The quality of feedback will not influence the validity of the offer. Offer available whenever this page is live.</p>
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+          <div class="container">
+              <h1 class="display-3">Get Your Free Protein Bars</h1>
+          </div>
       </div>
-    </div>
 
-    <hr>
+      <div class="container">
+          <!-- Example row of columns -->
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width:0%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">0%</div>
+                    </div>
+                  <div class="view" id="view-01">
+                      <p class="lead">Just fill the survey and get a free bottle of your choice. It takes about 3 minutes and no credit card info is needed, no shipping fees charged, and no hidden costs whatsoever!</p>
+                      <p><a class="btn btn-primary btn-lg btn-block" id="btn-01" href="#" role="button">Let's Start &raquo;</a></p>
+                      <p>Giveaway Rules: Limit one bottle per product. Valid in the continental USA. Offer is only valid for orders placed in the last 60 days. The quality of feedback will not influence the validity of the offer. Offer available whenever this page is live.</p>          
+                  </div>
+                  <div class="view" id="view-02">
+                      <p>Name and email form goes here.</p>
+                      <p><a class="btn btn-primary btn-lg btn-block" id="btn-02" href="#" role="button">Next &raquo;</a></p>
+                  </div>
+                  <div class="view" id="view-03">
+                      <p>Leave feedback uasing the link below. Once completed, you may come back to choose your free product.</p>
+                      <p><a class="btn btn-primary btn-lg btn-block" id="btn-03" target="_blank" href="https://display.ugc.bazaarvoice.com/static/smartforlife/main_site/en_US/container.htm?bvaction=rr_submit_generic&bvfamilyProductId=3549990879310&bvcampaignId=001" role="button">Leave Feedback &raquo;</a></p>          
+                  </div>
+                  <div class="view" id="view-04">
+                      <p>Animated pre-loader goes here while completing review.</p>
+                      <p><a class="btn btn-primary btn-lg btn-block" id="btn-04" href="#" role="button">Next &raquo;</a></p>
+                  </div>
+                  <div class="view" id="view-05">
+                      <p>Product picker for free item goes here.</p>
+                      <p><a class="btn btn-primary btn-lg btn-block" id="btn-05" href="#" role="button">Next &raquo;</a></p>
+                  </div>
+                  <div class="view" id="view-06">
+                      <p>Form for mailing address goes here.</p>
+                      <p><a class="btn btn-primary btn-lg btn-block" id="btn-06" href="#" role="button">Next &raquo;</a></p>
+                  </div>
+                  <div class="view" id="view-07">
+                      <p>Thank you page goes here.</p>
+                  </div>
+              </div>
+          </div>
 
-  </div> <!-- /container -->
+          <hr>
 
-</main>
+      </div> <!-- /container -->
 
-<footer class="container">
-  <p>&copy; Smart for Life 2019</p>
-</footer>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="/vendor/jquery-3.3.1-slim.min.js"><\/script>')</script>
-      <script src="vendor/bootstrap-v4.0.0/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    </main>
+
+    <footer class="container">
+        <p>&copy; Smart for Life 2019</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/vendor/jquery-3.3.1-slim.min.js"><\/script>')</script>
+    <script src="vendor/bootstrap-v4.0.0/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="assets/scripts/views.js"></script>
     </body>
 </html>
