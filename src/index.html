@@ -45,22 +45,22 @@
                         <form>
                             <div class="form-row">
                                 <div class="col">
-                                    <input type="text" class="form-control" placeholder="First name">
+                                    <input type="text" class="form-control" placeholder="First name" required>
                                 </div>
                                 <div class="col">
-                                    <input type="text" class="form-control" placeholder="Last name">
+                                    <input type="text" class="form-control" placeholder="Last name" requireed>
                                 </div>
                             </div>
                             <div class="form-row">
                                 <div class="col">
-                                    <input type="email" class="form-control" placeholder="Email">
+                                    <input type="email" class="form-control" placeholder="Email" required>
                                 </div>
                             </div>
                         </form>
                         <p><a class="btn btn-primary btn-lg btn-block" id="btn-02" href="#" role="button">Next &raquo;</a></p>
                   </div>
                   <div class="view" id="view-03">
-                      <p>Leave feedback uasing the link below. Once completed, you may come back to choose your free product.</p>
+                      <p>Leave feedback using the link below. Once completed, you may come back to choose your free product.</p>
                       <p><a class="btn btn-primary btn-lg btn-block" id="btn-03" target="_blank" href="https://display.ugc.bazaarvoice.com/static/smartforlife/main_site/en_US/container.htm?bvaction=rr_submit_generic&bvfamilyProductId=3549990879310&bvcampaignId=001" role="button">Leave Feedback &raquo;</a></p>          
                   </div>
                   <div class="view" id="view-04">
@@ -68,7 +68,23 @@
                       <p><a class="btn btn-primary btn-lg btn-block" id="btn-04" href="#" role="button">Next &raquo;</a></p>
                   </div>
                   <div class="view" id="view-05">
-                      <p>Product picker for free item goes here.</p>
+                      <h2>Select Your Free Product</h2>
+                      <form>
+                          <div class="form-group col-md-4">
+                              <label for="inputState" value="select free product"></label>
+                                <select id="inputState" class="form-control" required>
+                                    <option selected>T-Shirt</option>
+                                    <option>Water Bottle</option>
+                                    <option>S'mores Protein Bars 12 Ct.</option>
+                                    <option>Cinnamon Pecan Protein Bars 12 Ct.</option>
+                                    <option>Strawberry &amp; Cream Protein Bars 12 Ct.</option>
+                                    <option>Peanut Butter Chocolate Protein Bars 12 Ct.</option>
+                                    <option>Irresistible Winner Chocolate Cookies 12 Ct.</option>
+                                    <option>Sleep &amp; Relax 7 Day</option>
+                                    <option>Probiotic 30 Ct.</option>
+                                </select>
+                            </div>
+                      </form>
                       <p><a class="btn btn-primary btn-lg btn-block" id="btn-05" href="#" role="button">Next &raquo;</a></p>
                   </div>
                   <div class="view" id="view-06">
