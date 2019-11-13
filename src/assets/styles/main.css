@@ -38,6 +38,9 @@ Main Style Sheet for Free Product Landing Page
         background-color: #c8dc48;
         border-color: #c8dc48;
     }
+    .form-row {
+        margin-bottom: 20px;
+    }
 /*----- End Global Styles -----*/
 
 /*----- Start Header Styles -----*/
