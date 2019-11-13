@@ -15,7 +15,7 @@ $('#btn-03').click(function(){
 });
 $('#btn-04').click(function(){
     $('#view-04').hide();
-    $('#view-05').show();
+    $('#view-05').show(); 
     $('.progress-bar').css('width','68%').text('68%');
 });
 $('#btn-05').click(function(){

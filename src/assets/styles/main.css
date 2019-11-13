@@ -73,5 +73,12 @@ Main Style Sheet for Free Product Landing Page
 .progress-bar {
     width: 0%;
     color: #000;
+    background-color: #faa63c;
 }
+#pendulum {
+    width: 300px;
+    margin: 50px auto;
+    display: block;
+}
+
 /*----- Start End Content Styles -----*/
