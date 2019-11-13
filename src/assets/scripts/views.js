@@ -1,7 +1,7 @@
 $('#btn-01').click(function(){
     $('#view-01').hide();
     $('#view-02').show();
-    $('.progress-bar').css('width','17%').text('17%');
+    $('.progress-bar').css('width','17%').text('17%').css('color','#fff');
 });
 $('#btn-02').click(function(){
     $('#view-02').hide();

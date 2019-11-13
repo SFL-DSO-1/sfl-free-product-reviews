@@ -24,15 +24,19 @@ Main Style Sheet for Free Product Landing Page
         font-size: 3.5rem;
     }
 }
-body {
-        padding-top: 3.5rem;
-}
+
 /*----- End Theme Styles -----*/
 
 /*----- Start Global Styles -----*/
     .btn {
         text-align: center;
         margin: auto;
+        background-color: #faa63c;
+        border-color: #faa63c;
+    }
+    .btn:hover {
+        background-color: #c8dc48;
+        border-color: #c8dc48;
     }
 /*----- End Global Styles -----*/
 
@@ -42,6 +46,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: orange;
+    margin-bottom: 50px;
 }
 /*----- End Header Styles -----*/
 
@@ -49,16 +54,21 @@ body {
 .navbar-brand {
     padding: 0;
 }
+.navabr h1 {
+    text-align: center;
+}
 /*----- End Jumbotron Styles -----*/
 
 /*----- Start Main Content Styles -----*/
 .view {
     display: none;
+    margin-top: 20px;
 }
 #view-01 {
     display: block;
 }
 .progress-bar {
     width: 0%;
+    color: #000;
 }
 /*----- Start End Content Styles -----*/
