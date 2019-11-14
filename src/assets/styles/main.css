@@ -67,6 +67,9 @@ Main Style Sheet for Free Product Landing Page
     display: none;
     margin-top: 20px;
 }
+.warningText {
+    display: none;
+}
 #view-01 {
     display: block;
 }
