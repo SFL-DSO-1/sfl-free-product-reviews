@@ -20,30 +20,28 @@
         <h1>Get Your Free Product Now</h1>
     </nav>
 
-  <main role="main">
+    <main role="main">
 
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-          <div class="container">
+        <div class="jumbotron">
+            <div class="container">
 
-          </div>
-      </div>
+            </div>
+        </div>
 
-      <div class="container">
-          <!-- Example row of columns -->
-          <div class="row">
-              <div class="col-md-12">
-                  <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:0%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">0%</div>
-                    </div>
-                  <div class="view" id="view-01">
-                      <p class="lead">Just fill the survey and get a free product of your choice. It takes about 3 minutes and no credit card info is needed, no shipping fees charged, and no hidden costs whatsoever!</p>
-                      <p><a class="btn btn-primary btn-lg btn-block" id="btn-01" href="#" role="button">Let's Start &raquo;</a></p>
-                      <p>Giveaway Rules: Limit one bottle per product. Valid in the continental USA. Offer is only valid for orders placed in the last 60 days. The quality of feedback will not influence the validity of the offer. Offer available whenever this page is live.</p>          
-                    </div>
-                  <div class="view" id="view-02">
-                      <h2>About You</h2>
-                        <form>
+        <form>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width:0%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">0%</div>
+                        </div>
+                        <div class="view" id="view-01">
+                            <p class="lead">Just fill the survey and get a free product of your choice. It takes about 3 minutes and no credit card info is needed, no shipping fees charged, and no hidden costs whatsoever!</p>
+                            <p><a class="btn btn-primary btn-lg btn-block" id="btn-01" href="#" role="button">Let's Start &raquo;</a></p>
+                            <p>Giveaway Rules: Limit one bottle per product. Valid in the continental USA. Offer is only valid for orders placed in the last 60 days. The quality of feedback will not influence the validity of the offer. Offer available whenever this page is live.</p>          
+                        </div><!-- /#view-01 -->
+                        <div class="view" id="view-02">
+                            <h2>About You</h2>
                             <div class="form-row">
                                 <div class="col">
                                     <input type="text" class="form-control" placeholder="First name" required>
@@ -57,26 +55,41 @@
                                     <input type="email" class="form-control" placeholder="Email" required>
                                 </div>
                             </div>
-                        </form>
-                        <p><a class="btn btn-primary btn-lg btn-block" id="btn-02" href="#" role="button">Next &raquo;</a></p>
-                  </div>
-                  <div class="view" id="view-03">
-                        <h2>Submit Feedback</h2>
-                        <p class="lead">The next step will open a new window for you to submit your feedback to us. Positive or negattive feedback will not affect whether you receive a free product.</p>
-                        <p>Please come back to this tab once feedback is submitted to select your feedback.</p>
-                      <p><a class="btn btn-primary btn-lg btn-block" id="btn-03" target="_blank" href="https://display.ugc.bazaarvoice.com/static/smartforlife/main_site/en_US/container.htm?bvaction=rr_submit_generic&bvfamilyProductId=3549990879310&bvcampaignId=001" role="button">Leave Feedback &raquo;</a></p>          
-                  </div>
-                  <div class="view" id="view-04">
-                      <h2>Verify Feedback Submitted</h2>
-                      <p>By clicking this button, I am verifying that I have completed feedback form and am ready to select my free product.</p>
-                      <img class="img-fluid" id="pendulum" src="assets/img/preloader-01.svg">
-                      <p><a class="btn btn-primary btn-lg btn-block" id="btn-04" href="#" role="button">Feedback Complete &raquo;</a></p>
-                  </div>
-                  <div class="view" id="view-05">
-                      <h2>Select Your Free Product</h2>
-                      <form>
-                          <div class="form-group col-md-4">
-                              <label for="inputState" value="select free product"></label>
+                            <p><a class="btn btn-primary btn-lg btn-block" id="btn-02" href="#" role="button">Next &raquo;</a></p>
+                        </div><!-- /#view-02 -->
+                        <div class="view" id="view-03">
+                            <div class="form-row">
+                                <div class="col">
+                                    <label for="purchasedFrom">Where did you make your purchase?</label>
+                                    <select id="purchasedFrom" class="form-control" required>
+                                        <option>Amazon</option>
+                                        <option>Website</option>
+                                        <option>Other</option>
+                                    </select>
+                                </div>
+                                <div class="col">
+                                    <label for="orderNumber">Order Number</label>
+                                    <input type="text" class="form-control" id="inputOrderNumber" name="orderNumber" required>
+                                </div>
+                            </div>
+                            <p><a class="btn btn-primary btn-lg btn-block" id="btn-03" href="#" role="button">Next &raquo;</a></p>
+                        </div><!-- /#view-03 -->
+                        <div class="view" id="view-04">
+                            <h2>Submit Feedback</h2>
+                            <p class="lead">The next step will open a new window for you to submit your feedback to us. Positive or negattive feedback will not affect whether you receive a free product.</p>
+                            <p>Please come back to this tab once feedback is submitted to select your feedback.</p>
+                            <p><a class="btn btn-primary btn-lg btn-block" id="btn-04" target="_blank" href="https://display.ugc.bazaarvoice.com/static/smartforlife/main_site/en_US/container.htm?bvaction=rr_submit_generic&bvfamilyProductId=3549990879310&bvcampaignId=001" role="button">Leave Feedback &raquo;</a></p>          
+                        </div><!-- /#view-04 -->
+                        <div class="view" id="view-05">
+                            <h2>Verify Feedback Submitted</h2>
+                            <p>By clicking this button, I am verifying that I have completed feedback form and am ready to select my free product.</p>
+                            <img class="img-fluid" id="pendulum" src="assets/img/preloader-01.svg">
+                            <p><a class="btn btn-primary btn-lg btn-block" id="btn-05" href="#" role="button">Feedback Complete &raquo;</a></p>
+                        </div><!-- /#view-05 -->
+                        <div class="view" id="view-06">
+                            <h2>Select Your Free Product</h2>
+                            <div class="form-group col-md-4">
+                                <label for="inputState" value="select free product"></label>
                                 <select id="inputState" class="form-control" required>
                                     <option selected>T-Shirt</option>
                                     <option>Water Bottle</option>
@@ -89,102 +102,97 @@
                                     <option>Probiotic 30 Ct.</option>
                                 </select>
                             </div>
-                      </form>
-                      <p><a class="btn btn-primary btn-lg btn-block" id="btn-05" href="#" role="button">Next &raquo;</a></p>
-                  </div>
-                  <div class="view" id="view-06">
-                      <h2>Where Do You Want Us to Send Free Product?</h2>
-                      <form>
+                            <p><a class="btn btn-primary btn-lg btn-block" id="btn-06" href="#" role="button">Next &raquo;</a></p>
+                        </div><!-- /#view-06 -->
+                        <div class="view" id="view-07">
+                            <h2>Where Do You Want Us to Send Free Product?</h2>
                             <div class="form-group">
-                              <label for="inputAddress">Address</label>
-                              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                <label for="inputAddress">Address</label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
                             </div>
                             <div class="form-group">
-                              <label for="inputAddress2">Address 2</label>
-                              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                <label for="inputAddress2">Address 2</label>
+                                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
                             </div>
                             <div class="form-row">
-                              <div class="form-group col-md-6">
+                            <div class="form-group col-md-6">
                                 <label for="inputCity">City</label>
                                 <input type="text" class="form-control" id="inputCity">
-                              </div>
-                              <div class="form-group col-md-4">
+                            </div>
+                            <div class="form-group col-md-4">
                                 <label for="inputState">State</label>
                                 <select id="inputState" class="form-control">
-                                                <option value="AL">Alabama</option>
-                                                <option value="AK">Alaska</option>
-                                                <option value="AZ">Arizona</option>
-                                                <option value="AR">Arkansas</option>
-                                                <option value="CA">California</option>
-                                                <option value="CO">Colorado</option>
-                                                <option value="CT">Connecticut</option>
-                                                <option value="DE">Delaware</option>
-                                                <option value="DC">District Of Columbia</option>
-                                                <option value="FL">Florida</option>
-                                                <option value="GA">Georgia</option>
-                                                <option value="HI">Hawaii</option>
-                                                <option value="ID">Idaho</option>
-                                                <option value="IL">Illinois</option>
-                                                <option value="IN">Indiana</option>
-                                                <option value="IA">Iowa</option>
-                                                <option value="KS">Kansas</option>
-                                                <option value="KY">Kentucky</option>
-                                                <option value="LA">Louisiana</option>
-                                                <option value="ME">Maine</option>
-                                                <option value="MD">Maryland</option>
-                                                <option value="MA">Massachusetts</option>
-                                                <option value="MI">Michigan</option>
-                                                <option value="MN">Minnesota</option>
-                                                <option value="MS">Mississippi</option>
-                                                <option value="MO">Missouri</option>
-                                                <option value="MT">Montana</option>
-                                                <option value="NE">Nebraska</option>
-                                                <option value="NV">Nevada</option>
-                                                <option value="NH">New Hampshire</option>
-                                                <option value="NJ">New Jersey</option>
-                                                <option value="NM">New Mexico</option>
-                                                <option value="NY">New York</option>
-                                                <option value="NC">North Carolina</option>
-                                                <option value="ND">North Dakota</option>
-                                                <option value="OH">Ohio</option>
-                                                <option value="OK">Oklahoma</option>
-                                                <option value="OR">Oregon</option>
-                                                <option value="PA">Pennsylvania</option>
-                                                <option value="RI">Rhode Island</option>
-                                                <option value="SC">South Carolina</option>
-                                                <option value="SD">South Dakota</option>
-                                                <option value="TN">Tennessee</option>
-                                                <option value="TX">Texas</option>
-                                                <option value="UT">Utah</option>
-                                                <option value="VT">Vermont</option>
-                                                <option value="VA">Virginia</option>
-                                                <option value="WA">Washington</option>
-                                                <option value="WV">West Virginia</option>
-                                                <option value="WI">Wisconsin</option>
-                                                <option value="WY">Wyoming</option>
-                                  <option>...</option>
+                                    <option value="AL">Alabama</option>
+                                    <option value="AK">Alaska</option>
+                                    <option value="AZ">Arizona</option>
+                                    <option value="AR">Arkansas</option>
+                                    <option value="CA">California</option>
+                                    <option value="CO">Colorado</option>
+                                    <option value="CT">Connecticut</option>
+                                    <option value="DE">Delaware</option>
+                                    <option value="DC">District Of Columbia</option>
+                                    <option value="FL">Florida</option>
+                                    <option value="GA">Georgia</option>
+                                    <option value="HI">Hawaii</option>
+                                    <option value="ID">Idaho</option>
+                                    <option value="IL">Illinois</option>
+                                    <option value="IN">Indiana</option>
+                                    <option value="IA">Iowa</option>
+                                    <option value="KS">Kansas</option>
+                                    <option value="KY">Kentucky</option>
+                                    <option value="LA">Louisiana</option>
+                                    <option value="ME">Maine</option>
+                                    <option value="MD">Maryland</option>
+                                    <option value="MA">Massachusetts</option>
+                                    <option value="MI">Michigan</option>
+                                    <option value="MN">Minnesota</option>
+                                    <option value="MS">Mississippi</option>
+                                    <option value="MO">Missouri</option>
+                                    <option value="MT">Montana</option>
+                                    <option value="NE">Nebraska</option>
+                                    <option value="NV">Nevada</option>
+                                    <option value="NH">New Hampshire</option>
+                                    <option value="NJ">New Jersey</option>
+                                    <option value="NM">New Mexico</option>
+                                    <option value="NY">New York</option>
+                                    <option value="NC">North Carolina</option>
+                                    <option value="ND">North Dakota</option>
+                                    <option value="OH">Ohio</option>
+                                    <option value="OK">Oklahoma</option>
+                                    <option value="OR">Oregon</option>
+                                    <option value="PA">Pennsylvania</option>
+                                    <option value="RI">Rhode Island</option>
+                                    <option value="SC">South Carolina</option>
+                                    <option value="SD">South Dakota</option>
+                                    <option value="TN">Tennessee</option>
+                                    <option value="TX">Texas</option>
+                                    <option value="UT">Utah</option>
+                                    <option value="VT">Vermont</option>
+                                    <option value="VA">Virginia</option>
+                                    <option value="WA">Washington</option>
+                                    <option value="WV">West Virginia</option>
+                                    <option value="WI">Wisconsin</option>
+                                    <option value="WY">Wyoming</option>
                                 </select>
-                              </div>
-                              <div class="form-group col-md-2">
+                            </div>
+                            <div class="form-group col-md-2">
                                 <label for="inputZip">Zip</label>
                                 <input type="text" class="form-control" id="inputZip">
-                              </div>
                             </div>
-                          </form>
-                      <p><a class="btn btn-primary btn-lg btn-block" id="btn-06" href="#" role="button">Next &raquo;</a></p>
-                  </div>
-                  <div class="view" id="view-07">
-                      <h2>Thanks for your Feedback!</h2>
-                      <p class="lead">Once verified, you will receive a confirmation email and your free product will be shipped.</p>
-                      <p>Check out some of our other great products with the link below</p>
-                      <p><a class="btn btn-primary btn-lg btn-block" id="btn-05" href="https://www.smartforlife.com" role="button">Shop Now &raquo;</a></p>
-                  </div>
-              </div>
-          </div>
-
-          <hr>
-
-      </div> <!-- /container -->
+                            </div>
+                            <p><a class="btn btn-primary btn-lg btn-block" id="btn-07" href="#" role="button">Next &raquo;</a></p>
+                        </div><!-- /#view-07 -->
+                        <div class="view" id="view-08">
+                            <h2>Thanks for your Feedback!</h2>
+                            <p class="lead">Once verified, you will receive a confirmation email and your free product will be shipped.</p>
+                            <p>Check out some of our other great products with the link below</p>
+                            <p><a class="btn btn-primary btn-lg btn-block" id="btn-08" href="https://www.smartforlife.com" role="button">Shop Now &raquo;</a></p>
+                        </div><!-- /#view-08 -->
+                    </div><!-- /.col -->
+                </div><!-- /.row -->
+                <hr>
+            </div> <!-- /.container -->
+        </form>
 
     </main>
 

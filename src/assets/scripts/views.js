@@ -1,30 +1,35 @@
 $('#btn-01').click(function(){
     $('#view-01').hide();
     $('#view-02').show();
-    $('.progress-bar').css('width','17%').text('17%').css('color','#fff');
+    $('.progress-bar').css('width','14%').text('14%').css('color','#fff');
 });
 $('#btn-02').click(function(){
     $('#view-02').hide();
     $('#view-03').show();
-    $('.progress-bar').css('width','34%').text('34%');
+    $('.progress-bar').css('width','28%').text('28%');
 });
 $('#btn-03').click(function(){
     $('#view-03').hide();
     $('#view-04').show();
-    $('.progress-bar').css('width','51%').text('51%');
+    $('.progress-bar').css('width','43%').text('43%');
 });
 $('#btn-04').click(function(){
     $('#view-04').hide();
     $('#view-05').show(); 
-    $('.progress-bar').css('width','68%').text('68%');
+    $('.progress-bar').css('width','57%').text('57%');
 });
 $('#btn-05').click(function(){
     $('#view-05').hide();
     $('#view-06').show();
-    $('.progress-bar').css('width','84%').text('84%');
+    $('.progress-bar').css('width','71%').text('71%');
 });
 $('#btn-06').click(function(){
     $('#view-06').hide();
     $('#view-07').show();
+    $('.progress-bar').css('width','86%').text('86%');
+});
+$('#btn-07').click(function(){
+    $('#view-07').hide();
+    $('#view-08').show();
     $('.progress-bar').css('width','100%').text('100%');
 });
