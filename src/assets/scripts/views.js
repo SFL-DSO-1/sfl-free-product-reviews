@@ -28,8 +28,10 @@ $('#btn-06').click(function(){
     $('#view-07').show();
     $('.progress-bar').css('width','86%').text('86%');
 });
+/*
 $('#btn-07').click(function(){
     $('#view-07').hide();
     $('#view-08').show();
     $('.progress-bar').css('width','100%').text('100%');
 });
+*/
