@@ -20,6 +20,7 @@
 
 ## Release History ##
 
+* v1.0.1 - 11/21/2019 - Google Analytics.
 * v1.0.0 - 11/19/2019 - Initial Release!
 
 ### Questions ###
