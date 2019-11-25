@@ -3,7 +3,7 @@
 ## What is this repository for ##
 
 * Smart for Life Free Product for Review
-* Version 1.0
+* Version 1.1
 
 ## How do I get set up ##
 
@@ -20,6 +20,7 @@
 
 ## Release History ##
 
+* v1.1.0 - 11/25/2019 - Separate Thank You Page. 
 * v1.0.1 - 11/21/2019 - Google Analytics.
 * v1.0.0 - 11/19/2019 - Initial Release!
 

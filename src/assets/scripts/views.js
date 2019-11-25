@@ -1,7 +1,5 @@
 function formSent(){
-    $('#view-07').hide();
-    $('#view-08').show();
-    $('.progress-bar').css('width','100%').text('100%');
+    window.location.href = "thanks.html";
 };
 
 $('#btn-01').click(function(){
