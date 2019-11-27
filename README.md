@@ -20,6 +20,7 @@
 
 ## Release History ##
 
+* v1.1.1 - 11/27/2019 - Free Product Options Edit.
 * v1.1.0 - 11/25/2019 - Separate Thank You Page. 
 * v1.0.1 - 11/21/2019 - Google Analytics.
 * v1.0.0 - 11/19/2019 - Initial Release!
