@@ -20,6 +20,7 @@
 
 ## Release History ##
 
+* V1.1.3 - 12/09/2019 - Style Update.
 * v1.1.2 - 12/03/2019 - Review Any Product.
 * v1.1.1 - 11/27/2019 - Free Product Options Edit.
 * v1.1.0 - 11/25/2019 - Separate Thank You Page. 
