@@ -3,7 +3,7 @@
 ## What is this repository for ##
 
 * Smart for Life Free Product for Review
-* Version 1.1
+* Version 2.0
 
 ## How do I get set up ##
 
@@ -20,6 +20,7 @@
 
 ## Release History ##
 
+* v2.0.0 - 03/05/2020 - Onsite Review Container.
 * V1.1.3 - 12/09/2019 - Style Update.
 * v1.1.2 - 12/03/2019 - Review Any Product.
 * v1.1.1 - 11/27/2019 - Free Product Options Edit.

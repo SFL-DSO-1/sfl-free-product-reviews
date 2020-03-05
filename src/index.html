@@ -27,7 +27,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#"><img class="img-fluid" src="assets/img/logo-175x73.png" alt="Smart for Life"></a>
+        <a class="navbar-brand" href="#"><img class="img-fluid" src="https://storage.googleapis.com/product-review-landing-pages/sfl-18ctvarpack/logo-175x73.png" alt="Smart for Life"></a>
         <h1>Get Your Free Product Now</h1>
     </nav>
 
@@ -77,8 +77,15 @@
                                     <label for="purchasedFrom">Where did you make your purchase?</label>
                                     <select name="purchasedFrom" id="purchasedFrom" class="form-control" required>
                                         <option value="">(select one)</option>
-                                        <option>Amazon</option>
                                         <option>Website</option>
+                                        <option>Amazon</option>
+                                        <option>Walmart</option>
+                                        <option>eBay</option>
+                                        <option>Walgreens</option>
+                                        <option>Sam's Club</option>
+                                        <option>Newegg</option>
+                                        <option>Mass Genie</option>
+                                        <option>Wish</option>
                                         <option>Other</option>
                                     </select>
                                     <p class="warningText" id="purchasedFromWarning"><small>*Please make selection</small></p>
@@ -93,17 +100,11 @@
                         </div><!-- /#view-03 -->
                         <div class="view" id="view-04">
                             <h2>Submit Feedback</h2>
-                            <p class="lead">The next step will open a new window for you to submit your feedback to us. Positive or negative feedback will not affect whether you receive a free product.</p>
-                            <h4>IMPORTANT: Please come back to this tab once feedback is submitted to select your free product.</h4>
-                            <p><a class="btn btn-primary btn-lg btn-block" id="btn-04" target="_blank" href="https://display.ugc.bazaarvoice.com/static/smartforlife/main_site/en_US/container.htm?bvaction=rr_submit_generic&bvcampaignId=001" role="button">Leave Feedback &raquo;</a></p>          
+                            <p class="lead">The next step will open a pop-up for you to submit your feedback to us. Positive or negative feedback will not affect whether you receive a free product.</p>
+                            <h4>IMPORTANT: Select your free product after you submit your review.</h4>
+                            <button class="btn btn-primary btn-lg btn-block" id="btn-04" target="_blank" role="button">Leave Feedback &raquo;</button>          
                         </div><!-- /#view-04 -->
                         <div class="view" id="view-05">
-                            <h2>Verify Feedback Submitted</h2>
-                            <p>By clicking this button, I am verifying that I have completed feedback form and am ready to select my free product.</p>
-                            <img class="img-fluid" id="pendulum" src="assets/img/preloader-01.svg">
-                            <p><a class="btn btn-primary btn-lg btn-block" id="btn-05" href="#" role="button">Feedback Complete &raquo;</a></p>
-                        </div><!-- /#view-05 -->
-                        <div class="view" id="view-06">
                             <h2>Select Your Free Product</h2>
                             <div class="form-group col-md-4">
                                 <label for="freeProduct" value="select free product"></label>
@@ -119,9 +120,9 @@
                                 </select>
                                 <input type="hidden" id="sku" name="sku" value="">
                             </div>
-                            <p><a class="btn btn-primary btn-lg btn-block" id="btn-06" href="#" role="button">Next &raquo;</a></p>
-                        </div><!-- /#view-06 -->
-                        <div class="view" id="view-07">
+                            <p><a class="btn btn-primary btn-lg btn-block" id="btn-05" href="#" role="button">Next &raquo;</a></p>
+                        </div><!-- /#view-05 -->
+                        <div class="view" id="view-06">
                             <h2>Where Do You Want Us to Send Free Product?</h2>
                             <div class="form-group">
                                 <label for="address">Address</label>
@@ -203,13 +204,13 @@
                             </div>
                             </div>
                             <p><button type="button" class="btn btn-primary btn-lg btn-block" id="submit-form" role="button">Next &raquo;</button></p>
-                        </div><!-- /#view-07 -->
-                        <div class="view" id="view-08">
+                        </div><!-- /#view-06 -->
+                        <div class="view" id="view-07">
                             <h2>Thanks for your Feedback!</h2>
                             <p class="lead">Once verified, you will receive a confirmation email and your free product will be shipped.</p>
                             <p>Check out some of our other great products with the link below</p>
-                            <p><a class="btn btn-primary btn-lg btn-block" id="btn-08" href="https://www.smartforlife.com" role="button">Shop Now &raquo;</a></p>
-                        </div><!-- /#view-08 -->
+                            <p><a class="btn btn-primary btn-lg btn-block" id="btn-07" href="https://www.smartforlife.com" role="button">Shop Now &raquo;</a></p>
+                        </div><!-- /#view-07 -->
                     </div><!-- /.col -->
                 </div><!-- /.row -->
                 <hr>

@@ -45,7 +45,7 @@ Main Style Sheet for Free Product Landing Page
 
 /*----- Start Header Styles -----*/
 .jumbotron {
-    background-image: url('../img/SFL-WB-SHOPF-ProductP-ProteinBars-A.jpg');
+    background-image: url('https://storage.googleapis.com/product-review-landing-pages/sfl-18ctvarpack/SFL-WB-SHOPF-ProductP-ProteinBars-A.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     color: orange;
