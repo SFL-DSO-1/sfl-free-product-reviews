@@ -20,6 +20,7 @@
 
 ## Release History ##
 
+* v2.0.1 - 03/29/2020 - Google Tag Manager Installation.
 * v2.0.0 - 03/05/2020 - Onsite Review Container.
 * V1.1.3 - 12/09/2019 - Style Update.
 * v1.1.2 - 12/03/2019 - Review Any Product.
