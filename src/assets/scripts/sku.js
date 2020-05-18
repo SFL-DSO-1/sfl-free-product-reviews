@@ -26,5 +26,17 @@ $('#freeProduct').change(function(){
     } else if($('#freeProduct').val() == 'Probiotic 30 Ct.') {
         $('#sku').val('SFLSUPL1X30CT50BPRO');
         console.log('Probiotic 30 Ct.');
+    } else if($('#freeProduct').val() == 'Gluten Free Banana Chocolate Chip Cookies 12 Ct.') {
+        $('#sku').val('SFLCK1X12CTBANCC');
+        console.log('Gluten Free Banana Chocolate Chip Cookies 12 Ct.');
+    } else if($('#freeProduct').val() == 'Irresistible Winner Peanut Butter Cookies 12 Ct.') {
+        $('#sku').val('SFLCK1X12CTIWPB');
+        console.log('Irresistible Winner Peanut Butter Cookies 12 Ct.');
+    } else if($('#freeProduct').val() == 'Keto Triple Chocolate Protein Bars 12 Ct.') {
+        $('#sku').val('SFLPB1X12CTKTO3CHO');
+        console.log('Keto Triple Chocolate Protein Bars 12 Ct.');
+    } else if($('#freeProduct').val() == 'Low Sugar Choco Crisp Protein Bars 12 Ct.') {
+        $('#sku').val('SFLPB1X12CTLSCHO');
+        console.log('Low Sugar Choco Crisp Protein Bars 12 Ct.');
     }
 });

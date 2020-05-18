@@ -20,6 +20,7 @@
 
 ## Release History ##
 
+* v2.0.3 - 05/18/2020 - Free Product Options Edit.
 * v2.0.2 - 04/14/2020 - Disclaimer Update.
 * v2.0.1 - 03/29/2020 - Google Tag Manager Installation.
 * v2.0.0 - 03/05/2020 - Onsite Review Container.
