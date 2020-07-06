@@ -38,5 +38,8 @@ $('#freeProduct').change(function(){
     } else if($('#freeProduct').val() == 'Low Sugar Choco Crisp Protein Bars 12 Ct.') {
         $('#sku').val('SFLPB1X12CTLSCHO');
         console.log('Low Sugar Choco Crisp Protein Bars 12 Ct.');
+    } else if($('#freeProduct').val() == 'Caramel Almond 12 Ct.') {
+        $('#sku').val('SFLPB1X12CTCALM');
+        console.log('Low Sugar Choco Crisp Protein Bars 12 Ct.');
     }
 });
