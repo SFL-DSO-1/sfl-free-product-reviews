@@ -20,6 +20,7 @@
 
 ## Release History ##
 
+* v2.0.5 - 07/13/2020 - SKU Correction.
 * v2.0.4 - 07/06/2020 - Free Product Options Edit.
 * v2.0.3 - 05/18/2020 - Free Product Options Edit.
 * v2.0.2 - 04/14/2020 - Disclaimer Update.

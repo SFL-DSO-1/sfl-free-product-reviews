@@ -15,7 +15,7 @@ $('#freeProduct').change(function(){
         $('#sku').val('SFLPB1X12CTSTRAWCRM');
         console.log('Strawberry & Cream Protein Bars 12 Ct.');
     } else if($('#freeProduct').val() == 'Peanut Butter Chocolate Protein Bars 12 Ct.') {
-        $('#sku').val('SFLPB1X12CTLSPB');
+        $('#sku').val('SSFLPB1X12CTPB');
         console.log('Peanut Butter Chocolate Protein Bars 12 Ct.');
     } else if($('#freeProduct').val() == 'Irresistible Winner Chocolate Cookies 12 Ct.') {
         $('#sku').val('SFLCK1X12CTIWPB');
