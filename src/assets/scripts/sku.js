@@ -18,7 +18,7 @@ $('#freeProduct').change(function(){
         $('#sku').val('SSFLPB1X12CTPB');
         console.log('Peanut Butter Chocolate Protein Bars 12 Ct.');
     } else if($('#freeProduct').val() == 'Irresistible Winner Chocolate Cookies 12 Ct.') {
-        $('#sku').val('SFLCK1X12CTIWPB');
+        $('#sku').val('SFLCK1X12CTIWCC');
         console.log('Irresistible Winner Chocolate Cookies 12 Ct.');
     } else if($('#freeProduct').val() == 'Sleep & Relax 7 Day') {
         $('#sku').val('SFLSUPL1X7CTSLEPREL');
