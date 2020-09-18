@@ -38,14 +38,22 @@ $('#freeProduct').change(function(){
     } else if($('#freeProduct').val() == 'Low Sugar Choco Crisp Protein Bars 12 Ct.') {
         $('#sku').val('SFLPB1X12CTLSCHO');
         console.log('Low Sugar Choco Crisp Protein Bars 12 Ct.');
-    } else if($('#freeProduct').val() == 'Caramel Almond 12 Ct.') {
+    } else if($('#freeProduct').val() == 'Caramel Almond Protein Bars 12 Ct.') {
         $('#sku').val('SFLPB1X12CTCALM');
-        console.log('Caramel Almond 12 Ct.');
-    } else if($('#freeProduct').val() == 'Low Sugar Luscious Lemon Protein Bar 12 Ct.') {
+        console.log('Caramel Almond Protein Bars 12 Ct.');
+    } else if($('#freeProduct').val() == 'Low Sugar Luscious Lemon Protein Bars 12 Ct.') {
         $('#sku').val('SFLPB1X12CTLEM');
-        console.log('Low Sugar Luscious Lemon Protein Bar 12 Ct.');
+        console.log('Low Sugar Luscious Lemon Protein Bars 12 Ct.');
     } else if($('#freeProduct').val() == 'Low Sugar Peanut Butter Protein Bars 12 Ct.') {
         $('#sku').val('SFLPB1X12CTLSPB');
         console.log('Low Sugar Peanut Butter Protein Bars 12 Ct.');
+    } else if($('#freeProduct').val() == 'Coffee Latte Protein Bars 12 Ct.') {
+        $('#sku').val('SFLPB1X12CTCOFFLATTE');
+        console.log('Coffee Latte Protein Bars 12 Ct.');
+    } else if($('#freeProduct').val() == 'Low Sugar Caramel Almond Protein Bars 12 Ct.') {
+        $('#sku').val('SFLPB1X12CTLSCARALM');
+        console.log('Low Sugar Caramel Almond Protein Bars 12 Ct.');
+    } else {
+        $('#sku').val('Error - No SKU found.');
     }
 });
