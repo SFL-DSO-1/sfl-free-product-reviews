@@ -62,9 +62,16 @@ $('#btn-04').click(function(){
     $('.progress-bar').css('width','68%').text('68%');
 });
 $('#btn-05').click(function(){
-    $('#view-05').hide();
-    $('#view-06').show();
-    $('.progress-bar').css('width','85%').text('85%');
+    if($('#freeProduct').val() == ''){
+        $('#view-05 input').css('border-color','#ced4da');
+        $('.warningText').hide();
+        $('#freeProductWarning').show();
+        $('#freeProduct').css('border-color','red');
+    } else {
+        $('#view-05').hide();
+        $('#view-06').show();
+        $('.progress-bar').css('width','85%').text('85%');
+    }   
 });
 $('#submit-form').click(function(){
     if($('#address').val() == ''){
