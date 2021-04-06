@@ -8,11 +8,24 @@ function submitGeneric() {
         bvcampaignId: 'sfl-free-product-01'
     });
 }
+function timestampInit() {
+    var currentdate = new Date(); 
+    var datetime = currentdate.getDate() + "/"
+                + (currentdate.getMonth()+1)  + "/" 
+                + currentdate.getFullYear() + " @ "  
+                + currentdate.getHours() + ":"  
+                + currentdate.getMinutes() + ":" 
+                + currentdate.getSeconds();
+    console.log(datetime);
+    $('#timestamp').attr('value',datetime);
+}
 
 $('#btn-01').click(function(){
     $('#view-01').hide();
     $('#view-02').show();
     $('.progress-bar').css('width','17%').text('17%').css('color','#fff');
+    timestampInit();
+    
 });
 $('#btn-02').click(function(){
     if($('#firstName').val() == ''){
