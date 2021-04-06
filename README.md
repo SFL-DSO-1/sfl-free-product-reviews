@@ -3,7 +3,7 @@
 ## What is this repository for ##
 
 * Smart for Life Free Product for Review
-* Version 2.0
+* Version 2.2
 
 ## How do I get set up ##
 
@@ -20,6 +20,8 @@
 
 ## Release History ##
 
+* v2.2.1 - 04/06/2021 - Disclaimer Edit.
+* v2.2.0 - 04/06/2021 - Timestamp on Form.
 * v2.1.0 - 02/10/2021 - GoSquared Install.
 * v2.0.13 - 01/25/2021 - Free Product Options Edit.
 * v2.0.12 - 12/21/2020 - Free Product Options Edit.
