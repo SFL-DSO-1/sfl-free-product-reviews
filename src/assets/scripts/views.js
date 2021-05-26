@@ -9,15 +9,21 @@ function submitGeneric() {
     });
 }
 function timestampInit() {
-    var currentdate = new Date(); 
-    var datetime = currentdate.getDate() + "/"
-                + (currentdate.getMonth()+1)  + "/" 
-                + currentdate.getFullYear() + " @ "  
-                + currentdate.getHours() + ":"  
-                + currentdate.getMinutes() + ":" 
-                + currentdate.getSeconds();
-    console.log(datetime);
-    $('#timestamp').attr('value',datetime);
+    var currentdate = new Date();
+
+    var date = currentdate.getFullYear() + "-"
+                + (currentdate.getMonth()+1)  + "-"
+                + currentdate.getDate();
+
+    $('#date').attr('value',date);   
+    console.log(date);
+
+    var time = currentdate.getHours() + ":"  
+            + currentdate.getMinutes() + ":" 
+            + currentdate.getSeconds();
+
+    $('#time').attr('value',time);
+    console.log(time);
 }
 
 $('#btn-01').click(function(){

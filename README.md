@@ -20,6 +20,7 @@
 
 ## Release History ##
 
+* v2.2.2 - 05/26/2021 - Seperate Time and Date.
 * v2.2.1 - 04/06/2021 - Disclaimer Edit.
 * v2.2.0 - 04/06/2021 - Timestamp on Form.
 * v2.1.0 - 02/10/2021 - GoSquared Install.
