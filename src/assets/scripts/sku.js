@@ -53,6 +53,12 @@ $('#freeProduct').change(function(){
     } else if($('#freeProduct').val() == 'Low Sugar Caramel Almond Protein Bars 12 Ct.') {
         $('#sku').val('SFLPB1X12CTLSCARALM');
         console.log('Low Sugar Caramel Almond Protein Bars 12 Ct.');
+    } else if($('#freeProduct').val() == 'Vitamin B12 Gummies 60 Ct.') {
+        $('#sku').val('SFLGUM1X60CTVITB12ENERGY');
+        console.log('Vitamin B12 Gummies 60 Ct.');
+    } else if($('#freeProduct').val() == 'Vitamin D3 Gummies 60Ct Mixed Flavor - Orange, Lemon, Strawberry') {
+        $('#sku').val('SFLGUM1X60CTVITD3');
+        console.log('Vitamin D3 Gummies 60Ct Mixed Flavor - Orange, Lemon, Strawberry');
     } else {
         $('#sku').val('Error - No SKU found.');
     }
