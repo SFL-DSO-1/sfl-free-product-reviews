@@ -20,6 +20,7 @@
 
 ## Release History ##
 
+* v2.2.4 - 08/09/2021 - Products Update.
 * v2.2.3 - 05/26/2021 - Products Update.
 * v2.2.2 - 05/26/2021 - Separate Time and Date.
 * v2.2.1 - 04/06/2021 - Disclaimer Edit.
