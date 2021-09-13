@@ -59,7 +59,15 @@ $('#freeProduct').change(function(){
     } else if($('#freeProduct').val() == 'Vitamin D3 Gummies 60Ct Mixed Flavor - Orange, Lemon, Strawberry') {
         $('#sku').val('SFLGUM1X60CTVITD3');
         console.log('Vitamin D3 Gummies 60Ct Mixed Flavor - Orange, Lemon, Strawberry');
-    } else {
+    } else if($('#freeProduct').val() == 'Melatonin & Magnesium Gummies 60 Ct.') {
+        $('#sku').val('SFLGUM1X60CTMAGMELA');
+        console.log('Melatonin & Magnesium Gummies 60 Ct.');
+    }  
+    else if($('#freeProduct').val() == 'Multivitamin 90 Ct.') {
+        $('#sku').val('SFLSUPL1X90CTMULTI');
+        console.log('Multivitamin 90 Ct.');
+    } 
+    else {
         $('#sku').val('Error - No SKU found.');
     }
 });
