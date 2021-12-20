@@ -7,7 +7,7 @@
 
 ## How do I get set up ##
 
-* Clone repo to start [https://bitbucket.org/smartforlifedso/sfl-reviews.git](https://bitbucket.org/smartforlifedso/sfl-reviews.git)
+* Clone repo to start [https://github.com/Orlandohmor84/sfl-free-product-reviews.git](https://github.com/Orlandohmor84/sfl-free-product-reviews.git)
 * Install dependencies
 * Development - Checkout from stage. Create new branch. Code. Run default Gulp task. Test.
 * Deployment -  Run Gulp build script. Push. Merge with stage. Stage to be merged with Master when all commits ready for release. Semantic version control with tags using major.minor.patch methodology. FTP.
@@ -20,6 +20,7 @@
 
 ## Release History ##
 
+* v2.2.6 - 12/20/2021 - Products Update.
 * v2.2.5 - 09/13/2021 - Products Update.
 * v2.2.4 - 08/09/2021 - Products Update.
 * v2.2.3 - 05/26/2021 - Products Update.

@@ -66,7 +66,10 @@ $('#freeProduct').change(function(){
     else if($('#freeProduct').val() == 'Multivitamin 90 Ct.') {
         $('#sku').val('SFLSUPL1X90CTMULTI');
         console.log('Multivitamin 90 Ct.');
-    } 
+    } else if($('#freeProduct').val() == 'Irresistible Winner Chocolate Banana Cookies 12 Ct.') {
+        $('#sku').val('SFLCK1X12CTIRRCHOBANA');
+        console.log('Irresistible Winner Chocolate Banana Cookies 12 Ct.');
+    }
     else {
         $('#sku').val('Error - No SKU found.');
     }
