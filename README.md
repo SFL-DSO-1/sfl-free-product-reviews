@@ -7,7 +7,7 @@
 
 ## How do I get set up ##
 
-* Clone repo to start [https://github.com/Orlandohmor84/sfl-free-product-reviews.git](https://github.com/Orlandohmor84/sfl-free-product-reviews.git)
+* Clone repo to start [https://github.com/SFL-DSO-1/sfl-free-product-reviews.git](https://github.com/SFL-DSO-1/sfl-free-product-reviews.git)
 * Install dependencies
 * Development - Checkout from stage. Create new branch. Code. Run default Gulp task. Test.
 * Deployment -  Run Gulp build script. Push. Merge with stage. Stage to be merged with Master when all commits ready for release. Semantic version control with tags using major.minor.patch methodology. FTP.
