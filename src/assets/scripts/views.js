@@ -29,7 +29,7 @@ function timestampInit() {
 $('#btn-01').click(function(){
     $('#view-01').hide();
     $('#view-02').show();
-    $('.progress-bar').css('width','17%').text('17%').css('color','#fff');
+    $('.progress-bar').css('width','20%').text('20%').css('color','#fff');
     timestampInit();
     
 });
@@ -52,68 +52,50 @@ $('#btn-02').click(function(){
     } else {
         $('#view-02').hide();
         $('#view-03').show();
-        $('.progress-bar').css('width','34%').text('34%');
+        $('.progress-bar').css('width','40%').text('40%');
     }
     
 });
 $('#btn-03').click(function(){
-    if($('#purchasedFrom').val() == ''){
-        $('#view-03 input').css('border-color','#ced4da');
-        $('.warningText').hide();
-        $('#purchasedFromWarning').show();
-        $('#purchasedFrom').css('border-color','red');
-    }  else if($('#orderNumber').val() == ''){
-        $('#view-03 input').css('border-color','#ced4da');
-        $('#view-03 select').css('border-color','#ced4da');
-        $('.warningText').hide();
-        $('#orderNumberWarning').show();
-        $('#orderNumber').css('border-color','red');
-    } else {
-        $('#view-03').hide();
-        $('#view-04').show();
-        $('.progress-bar').css('width','52%').text('52%');
-    }
+    $('#view-03').hide();
+    submitGeneric();
+    $('#view-04').show(); 
+    $('.progress-bar').css('width','60%').text('60%');
 });
 $('#btn-04').click(function(){
-    $('#view-04').hide();
-    submitGeneric();
-    $('#view-05').show(); 
-    $('.progress-bar').css('width','68%').text('68%');
-});
-$('#btn-05').click(function(){
     if($('#freeProduct').val() == ''){
-        $('#view-05 input').css('border-color','#ced4da');
+        $('#view-04 input').css('border-color','#ced4da');
         $('.warningText').hide();
         $('#freeProductWarning').show();
         $('#freeProduct').css('border-color','red');
     } else {
-        $('#view-05').hide();
-        $('#view-06').show();
-        $('.progress-bar').css('width','85%').text('85%');
+        $('#view-04').hide();
+        $('#view-05').show();
+        $('.progress-bar').css('width','80%').text('80%');
     }   
 });
 $('#submit-form').click(function(){
     if($('#address').val() == ''){
-        $('#view-06 input').css('border-color','#ced4da');
-        $('#view-06 select').css('border-color','#ced4da');
+        $('#view-05 input').css('border-color','#ced4da');
+        $('#view-05 select').css('border-color','#ced4da');
         $('.warningText').hide();
         $('#addressWarning').show();
         $('#address').css('border-color','red');
     } else if($('#city').val() == ''){
-        $('#view-06 input').css('border-color','#ced4da');
-        $('#view-06 select').css('border-color','#ced4da');
+        $('#view-05 input').css('border-color','#ced4da');
+        $('#view-05 select').css('border-color','#ced4da');
         $('.warningText').hide();
         $('#cityWarning').show();
         $('#city').css('border-color','red');
     } else if($('#state').val() == ''){
-        $('#view-06 input').css('border-color','#ced4da');
-        $('#view-06 select').css('border-color','#ced4da');
+        $('#view-05 input').css('border-color','#ced4da');
+        $('#view-05 select').css('border-color','#ced4da');
         $('.warningText').hide();
         $('#stateWarning').show();
         $('#state').css('border-color','red');
     } else if($('#zip').val() == ''){
-        $('#view-06 input').css('border-color','#ced4da');
-        $('#view-06 select').css('border-color','#ced4da');
+        $('#view-05 input').css('border-color','#ced4da');
+        $('#view-05 select').css('border-color','#ced4da');
         $('.warningText').hide();
         $('#zipWarning').show();
         $('#zip').css('border-color','red');

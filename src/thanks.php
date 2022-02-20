@@ -1,4 +1,4 @@
-
+<?php include 'includes/var-main.php'; ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -7,31 +7,22 @@
     <meta name="description" content="">
     <meta name="author" content="Smart for Life">
 
-    <title>Smart for Life Free Low Sugar Protein Bars</title>
+    <title><?php echo $title; ?> | <?php echo $descriptionMain; ?></title>
 
     <link href="vendor/bootstrap-v4.0.0/boostrap.min.css" rel="stylesheet">
     <link href="assets/styles/main.css" rel="stylesheet">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87171930-4"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-87171930-4');
-    </script>
+    <?php include 'includes/gtag.php'; ?>
 
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#"><img class="img-fluid" src="assets/img/logo-175x73.png" alt="Smart for Life"></a>
-        <h1>Get Your Free Product Now</h1>
+        <a class="navbar-brand" href="#"><img class="img-fluid" src="<?php echo $img_logo['url'] ?>" alt="<?php echo $img_logo['alt'] ?>"></a>
+        <h1><?php echo $title; ?></h1>
     </nav>
 
     <main role="main">
-
         <div class="jumbotron">
             <div class="container">
 
@@ -47,24 +38,14 @@
                     <p class="lead">Once verified, you will receive a confirmation email and your free product will be shipped.</p>
                     <p>Check out some of our other great products with the link below</p>
                     <p><a class="btn btn-primary btn-lg btn-block" id="btn-08" href="https://www.smartforlife.com" role="button">Shop Now &raquo;</a></p>
-                </div><!-- /#view-08 -->
-            </div><!-- /.col -->
-        </div><!-- /.row -->
-        <hr>
-    </div> <!-- /.container -->
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+            <hr>
+        </div> <!-- /.container -->
 
     </main>
 
-    <footer class="container">
-        <p>&copy; Smart for Life <span id="year"></span></p>
-    </footer>
-    <script src="vendor/jquery-v3.4.1.min.js"></script>
-    <script src="vendor/bootstrap-v4.0.0/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-    <script src="assets/scripts/year.js"></script>
-    <script>
-        
-        
-        
-    </script>
-    </body>
+    <?php include 'includes/footer.php' ?>
+
+</body>
 </html>

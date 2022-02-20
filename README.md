@@ -3,23 +3,22 @@
 ## What is this repository for ##
 
 * Smart for Life Free Product for Review
-* Version 2.2
+* Version 3.0
 
 ## How do I get set up ##
 
 * Clone repo to start [https://github.com/SFL-DSO-1/sfl-free-product-reviews.git](https://github.com/SFL-DSO-1/sfl-free-product-reviews.git)
-* Install dependencies
-* Development - Checkout from stage. Create new branch. Code. Run default Gulp task. Test.
-* Deployment -  Run Gulp build script. Push. Merge with stage. Stage to be merged with Master when all commits ready for release. Semantic version control with tags using major.minor.patch methodology. FTP.
 
 ## Vendors ##
 
-* NodeJs (dev only)
 * jQuery
 * Bootstrap
+* Bazaarvoice
+* Google Tag Manager
 
 ## Release History ##
 
+* v3.0.0 - 02/20/2022 - PHP Conversion.
 * v2.2.6 - 12/20/2021 - Products Update.
 * v2.2.5 - 09/13/2021 - Products Update.
 * v2.2.4 - 08/09/2021 - Products Update.
