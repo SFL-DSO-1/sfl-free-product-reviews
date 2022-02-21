@@ -18,6 +18,7 @@
 
 ## Release History ##
 
+* v3.0.1 - 02/21/2022 - .htaccess Redirect.
 * v3.0.0 - 02/20/2022 - PHP Conversion.
 * v2.2.6 - 12/20/2021 - Products Update.
 * v2.2.5 - 09/13/2021 - Products Update.
