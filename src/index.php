@@ -48,7 +48,7 @@
                         <?php include 'includes/views/en/view-01.php'; ?>
                         <?php include 'includes/views/en/view-02.php'; ?>
                         <?php include 'includes/views/en/view-03.php'; ?>
-                        <?php include 'includes/views/en/view-04-selector.php'; ?>
+                        <?php include 'includes/views/en/view-04-selector-us.php'; ?>
                         <?php include 'includes/views/en/view-05-us.php'; ?>
                     </div><!-- /.col -->
                 </div><!-- /.row -->

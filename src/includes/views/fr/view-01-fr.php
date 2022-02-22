@@ -1,0 +1,6 @@
+<div class="view" id="view-01">
+    <p class="lead">Remplissez simplement le sondage et obtenez un produit gratuit de votre choix. Cela prend environ 3 minutes et aucune information de carte de crédit n'est nécessaire, aucun frais d'expédition n'est facturé et aucun coût caché !</p>
+    <p><a class="btn btn-primary btn-lg btn-block" id="btn-01" href="#" role="button">Commencer Ici &raquo;</a></p>
+    <p>Règles des cadeaux : limite d'un produit par achat par personne. Valable aux États-Unis continentaux et au Canada. L'offre n'est valable que pour les commandes passées au cours des 60 derniers jours. La qualité des commentaires n'influencera pas la validité de l'offre. Offre disponible chaque fois que cette page est en ligne.</p>
+    <p>Nous ne vendons, ne louons ni ne divulguons autrement les informations personnelles collectées par notre site à des tiers dans le cours normal des affaires. Cependant, certains agents tiers (ISP et al.) et d'autres tiers effectuant des services pour le promoteur du site (auditeurs techniques, développeurs, opérations d'exécution de commandes) peuvent avoir accès aux informations personnellement identifiables afin de faire leur travail.</p>      
+</div><!-- /#view-01 -->
