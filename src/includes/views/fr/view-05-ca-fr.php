@@ -16,7 +16,7 @@
             <p class="warningText" id="cityWarning"><small>*Veuillez remplir le champ</small></p>
         </div>
         <div class="form-group col-md-4">
-            <label for="state">State</label>
+            <label for="state">Province</label>
             <select name="state" id="state" class="form-control" required>
                 <option value="">(select one)</option>
                 <option value="AB">Alberta</option>
@@ -41,5 +41,5 @@
             <p class="warningText" id="zipWarning"><small>*Veuillez remplir le champ</small></p>
         </div>
     </div>
-    <p><button type="button" class="btn btn-primary btn-lg btn-block" id="submit-form" role="button">Suivant &raquo;</button></p>
+    <p><button type="button" class="btn btn-primary btn-lg btn-block" id="submit-form-ca-fr" role="button">Suivant &raquo;</button></p>
 </div><!-- /#view-05 -->

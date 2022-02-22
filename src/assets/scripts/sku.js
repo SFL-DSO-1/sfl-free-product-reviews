@@ -17,7 +17,7 @@ $('#freeProduct').change(function(){
     } else if($('#freeProduct').val() == 'Peanut Butter Chocolate Protein Bars 12 Ct.') {
         $('#sku').val('SFLPB1X12CTPB');
         console.log('Peanut Butter Chocolate Protein Bars 12 Ct.');
-    } else if($('#freeProduct').val() == 'Irresistible Winner Chocolate Cookies 12 Ct.') {
+    } else if($('#freeProduct').val() == 'Irresistible Winner Chocolate Cookies 12 Ct.' || $('#freeProduct').val() == 'Biscuits aux pépites de chocolat irrésistibles 12 Ct.') {
         $('#sku').val('SFLCK1X12CTIWCC');
         console.log('Irresistible Winner Chocolate Cookies 12 Ct.');
     } else if($('#freeProduct').val() == 'Sleep & Relax 7 Day') {
@@ -26,13 +26,13 @@ $('#freeProduct').change(function(){
     } else if($('#freeProduct').val() == 'Probiotic 30 Ct.') {
         $('#sku').val('SFLSUPL1X30CT50BPRO');
         console.log('Probiotic 30 Ct.');
-    } else if($('#freeProduct').val() == 'Gluten Free Banana Chocolate Chip Cookies 12 Ct.') {
+    } else if($('#freeProduct').val() == 'Gluten Free Banana Chocolate Chip Cookies 12 Ct.' || $('#freeProduct').val() == 'Biscuits aux pépites de chocolat à la banane sans gluten 12 Ct.') {
         $('#sku').val('SFLCK1X12CTBANCC');
         console.log('Gluten Free Banana Chocolate Chip Cookies 12 Ct.');
-    } else if($('#freeProduct').val() == 'Irresistible Winner Peanut Butter Cookies 12 Ct.') {
+    } else if($('#freeProduct').val() == 'Irresistible Winner Peanut Butter Cookies 12 Ct.' || $('#freeProduct').val() == 'Biscuits au beurre de cacahuète irrésistibles 12 Ct.') {
         $('#sku').val('SFLCK1X12CTIWPB');
         console.log('Irresistible Winner Peanut Butter Cookies 12 Ct.');
-    } else if($('#freeProduct').val() == 'Keto Triple Chocolate Protein Bars 12 Ct.') {
+    } else if($('#freeProduct').val() == 'Keto Triple Chocolate Protein Bars 12 Ct.' || $('#freeProduct').val() == 'Barres protéinées Keto Triple Chocolat 12 Ct.') {
         $('#sku').val('SFLPB1X12CTKTO3CHO');
         console.log('Keto Triple Chocolate Protein Bars 12 Ct.');
     } else if($('#freeProduct').val() == 'Low Sugar Choco Crisp Protein Bars 12 Ct.') {
@@ -47,9 +47,6 @@ $('#freeProduct').change(function(){
     } else if($('#freeProduct').val() == 'Low Sugar Peanut Butter Protein Bars 12 Ct.') {
         $('#sku').val('SFLPB1X12CTLSPB');
         console.log('Low Sugar Peanut Butter Protein Bars 12 Ct.');
-    } else if($('#freeProduct').val() == 'Coffee Latte Protein Bars 12 Ct.') {
-        $('#sku').val('SFLPB1X12CTCOFFLATTE');
-        console.log('Coffee Latte Protein Bars 12 Ct.');
     } else if($('#freeProduct').val() == 'Low Sugar Caramel Almond Protein Bars 12 Ct.') {
         $('#sku').val('SFLPB1X12CTLSCARALM');
         console.log('Low Sugar Caramel Almond Protein Bars 12 Ct.');

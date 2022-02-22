@@ -49,7 +49,7 @@
                         <?php include 'includes/views/en/view-02.php'; ?>
                         <?php include 'includes/views/en/view-03.php'; ?>
                         <?php include 'includes/views/en/view-04-selector-ca.php'; ?>
-                        <?php include 'includes/views/en/view-05-us.php'; ?>
+                        <?php include 'includes/views/en/view-05-ca.php'; ?>
                     </div><!-- /.col -->
                 </div><!-- /.row -->
                 <hr>

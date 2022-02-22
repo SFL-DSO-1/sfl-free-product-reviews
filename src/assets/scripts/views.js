@@ -1,5 +1,11 @@
 function formSent(){
-    window.location.href = "thanks.html";
+    window.location.href = "thanks.php";
+};
+function formSentCaEnglish(){
+    window.location.href = "thanks-ca.php";
+};
+function formSentCaFrench(){
+    window.location.href = "merci.php";
 };
 
 function submitGeneric() {
@@ -74,6 +80,8 @@ $('#btn-04').click(function(){
         $('.progress-bar').css('width','80%').text('80%');
     }   
 });
+
+/* US Submit Button */
 $('#submit-form').click(function(){
     if($('#address').val() == ''){
         $('#view-05 input').css('border-color','#ced4da');
@@ -112,6 +120,94 @@ $('#submit-form').click(function(){
                 data: $form.serialize()
             }).done(
                 formSent()
+            )
+        });
+    }
+});
+
+/* CA English Submit Button */
+$('#submit-form-ca-en').click(function(){
+    if($('#address').val() == ''){
+        $('#view-05 input').css('border-color','#ced4da');
+        $('#view-05 select').css('border-color','#ced4da');
+        $('.warningText').hide();
+        $('#addressWarning').show();
+        $('#address').css('border-color','red');
+    } else if($('#city').val() == ''){
+        $('#view-05 input').css('border-color','#ced4da');
+        $('#view-05 select').css('border-color','#ced4da');
+        $('.warningText').hide();
+        $('#cityWarning').show();
+        $('#city').css('border-color','red');
+    } else if($('#state').val() == ''){
+        $('#view-05 input').css('border-color','#ced4da');
+        $('#view-05 select').css('border-color','#ced4da');
+        $('.warningText').hide();
+        $('#stateWarning').show();
+        $('#state').css('border-color','red');
+    } else if($('#zip').val() == ''){
+        $('#view-05 input').css('border-color','#ced4da');
+        $('#view-05 select').css('border-color','#ced4da');
+        $('.warningText').hide();
+        $('#zipWarning').show();
+        $('#zip').css('border-color','red');
+    } else {
+        var $form = $('form#freeProductForm'),
+            url = 'https://script.google.com/macros/s/AKfycbyIOPZVpbJpRVkv8nl8jhcAOL_qdThLjk875JQmszVN0OuB9GlY/exec'
+
+            $('#submit-form-ca-en').on('click', function(e) {
+            e.preventDefault();
+            var jqxhr = $.ajax({
+                url: url,
+                method: "GET",
+                dataType: "json",
+                data: $form.serialize()
+            }).done(
+                formSentCaEnglish()
+            )
+        });
+    }
+});
+
+/* CA French Submit Button */
+$('#submit-form-ca-fr').click(function(){
+    if($('#address').val() == ''){
+        $('#view-05 input').css('border-color','#ced4da');
+        $('#view-05 select').css('border-color','#ced4da');
+        $('.warningText').hide();
+        $('#addressWarning').show();
+        $('#address').css('border-color','red');
+    } else if($('#city').val() == ''){
+        $('#view-05 input').css('border-color','#ced4da');
+        $('#view-05 select').css('border-color','#ced4da');
+        $('.warningText').hide();
+        $('#cityWarning').show();
+        $('#city').css('border-color','red');
+    } else if($('#state').val() == ''){
+        $('#view-05 input').css('border-color','#ced4da');
+        $('#view-05 select').css('border-color','#ced4da');
+        $('.warningText').hide();
+        $('#stateWarning').show();
+        $('#state').css('border-color','red');
+    } else if($('#zip').val() == ''){
+        $('#view-05 input').css('border-color','#ced4da');
+        $('#view-05 select').css('border-color','#ced4da');
+        $('.warningText').hide();
+        $('#zipWarning').show();
+        $('#zip').css('border-color','red');
+    } else {
+        var $form = $('form#freeProductForm'),
+            url = 'https://script.google.com/macros/s/AKfycbyIOPZVpbJpRVkv8nl8jhcAOL_qdThLjk875JQmszVN0OuB9GlY/exec'
+
+            $('#submit-form-ca-fr').on('click', function(e) {
+            e.preventDefault();
+            var jqxhr = $.ajax({
+                url: url,
+                method: "GET",
+                dataType: "json",
+                data: $form.serialize()
+            }).done(
+                formSentCaFrench()
             )
         });
     }
