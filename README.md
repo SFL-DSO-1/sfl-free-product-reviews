@@ -3,7 +3,7 @@
 ## What is this repository for ##
 
 * Smart for Life Free Product for Review
-* Version 3.0
+* Version 3.1
 
 ## How do I get set up ##
 
@@ -18,6 +18,7 @@
 
 ## Release History ##
 
+* v3.1.1 - 02/24/2022 - Sku.js clean up.
 * v3.1.0 - 02/22/2022 - Added Canada Version.
 * v3.0.1 - 02/21/2022 - .htaccess Redirect.
 * v3.0.0 - 02/20/2022 - PHP Conversion.

@@ -59,15 +59,13 @@ $('#freeProduct').change(function(){
     } else if($('#freeProduct').val() == 'Melatonin & Magnesium Gummies 60 Ct.') {
         $('#sku').val('SFLGUM1X60CTMAGMELA');
         console.log('Melatonin & Magnesium Gummies 60 Ct.');
-    }  
-    else if($('#freeProduct').val() == 'Multivitamin 90 Ct.') {
+    }  else if($('#freeProduct').val() == 'Multivitamin 90 Ct.') {
         $('#sku').val('SFLSUPL1X90CTMULTI');
         console.log('Multivitamin 90 Ct.');
     } else if($('#freeProduct').val() == 'Irresistible Winner Chocolate Banana Cookies 12 Ct.') {
         $('#sku').val('SFLCK1X12CTIRRCHOBANA');
         console.log('Irresistible Winner Chocolate Banana Cookies 12 Ct.');
-    }
-    else {
+    } else {
         $('#sku').val('Error - No SKU found.');
     }
 });
