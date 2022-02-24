@@ -39,7 +39,7 @@
         </div>
 
         <p style="text-align: center;"><a style="font-size: 2em;" class="btn btn-primary btn-lg" id="btn-02" href="ca-en.php" role="button">English &raquo;</a></p>
-        <p style="text-align: center;"><a style="font-size: 2em;" class="btn btn-primary btn-lg" id="btn-02" href="ca-fr.php" role="button">French &raquo;</a></p>
+        <p style="text-align: center;"><a style="font-size: 2em;" class="btn btn-primary btn-lg" id="btn-02" href="ca-fr.php" role="button">Français &raquo;</a></p>
 
     </main>
 
