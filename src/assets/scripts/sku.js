@@ -14,9 +14,6 @@ $('#freeProduct').change(function(){
     } else if($('#freeProduct').val() == 'Strawberry & Cream Protein Bars 12 Ct.') {
         $('#sku').val('SFLPB1X12CTSTRAWCRM');
         console.log('Strawberry & Cream Protein Bars 12 Ct.');
-    } else if($('#freeProduct').val() == 'Peanut Butter Chocolate Protein Bars 12 Ct.') {
-        $('#sku').val('SFLPB1X12CTPB');
-        console.log('Peanut Butter Chocolate Protein Bars 12 Ct.');
     } else if($('#freeProduct').val() == 'Irresistible Winner Chocolate Cookies 12 Ct.' || $('#freeProduct').val() == 'Biscuits aux pépites de chocolat irrésistibles 12 Ct.') {
         $('#sku').val('SFLCK1X12CTIWCC');
         console.log('Irresistible Winner Chocolate Cookies 12 Ct.');
@@ -32,18 +29,15 @@ $('#freeProduct').change(function(){
     } else if($('#freeProduct').val() == 'Irresistible Winner Peanut Butter Cookies 12 Ct.' || $('#freeProduct').val() == 'Biscuits au beurre de cacahuète irrésistibles 12 Ct.') {
         $('#sku').val('SFLCK1X12CTIWPB');
         console.log('Irresistible Winner Peanut Butter Cookies 12 Ct.');
-    } else if($('#freeProduct').val() == 'Keto Triple Chocolate Protein Bars 12 Ct.' || $('#freeProduct').val() == 'Barres protéinées Keto Triple Chocolat 12 Ct.') {
+    } else if($('#freeProduct').val() == 'Keto Triple Choco Crisp Protein Bars 12 Ct.' || $('#freeProduct').val() == 'Barres protéinées Keto Triple Chocolat 12 Ct.') {
         $('#sku').val('SFLPB1X12CTKTO3CHO');
         console.log('Keto Triple Chocolate Protein Bars 12 Ct.');
     } else if($('#freeProduct').val() == 'Low Sugar Choco Crisp Protein Bars 12 Ct.') {
         $('#sku').val('SFLPB1X12CTLSCHO');
         console.log('Low Sugar Choco Crisp Protein Bars 12 Ct.');
-    } else if($('#freeProduct').val() == 'Caramel Almond Protein Bars 12 Ct.') {
-        $('#sku').val('SFLPB1X12CTCALM');
-        console.log('Caramel Almond Protein Bars 12 Ct.');
-    } else if($('#freeProduct').val() == 'Low Sugar Luscious Lemon Protein Bars 12 Ct.') {
+    } else if($('#freeProduct').val() == 'Luscious Lemon Protein Bars 12 Ct.') {
         $('#sku').val('SFLPB1X12CTLEM');
-        console.log('Low Sugar Luscious Lemon Protein Bars 12 Ct.');
+        console.log('Luscious Lemon Protein Bars 12 Ct.');
     } else if($('#freeProduct').val() == 'Low Sugar Peanut Butter Protein Bars 12 Ct.') {
         $('#sku').val('SFLPB1X12CTLSPB');
         console.log('Low Sugar Peanut Butter Protein Bars 12 Ct.');
@@ -65,6 +59,12 @@ $('#freeProduct').change(function(){
     } else if($('#freeProduct').val() == 'Irresistible Winner Chocolate Banana Cookies 12 Ct.') {
         $('#sku').val('SFLCK1X12CTIRRCHOBANA');
         console.log('Irresistible Winner Chocolate Banana Cookies 12 Ct.');
+    } else if($('#freeProduct').val() == 'Low Sugar Variety Protein Bar Box 18 Ct.') {
+        $('#sku').val('SFLPBLS1X18VRBXDRKB');
+        console.log('Low Sugar Variety Protein Bar Box 18 Ct.');
+    } else if($('#freeProduct').val() == 'Keto Variety Protein Bar Box 18 Ct.') {
+        $('#sku').val('SFLPBLS1X18ENGKETOVRBX');
+        console.log('Keto Variety Protein Bar Box 18 Ct.');
     } else {
         $('#sku').val('Error - No SKU found.');
     }
