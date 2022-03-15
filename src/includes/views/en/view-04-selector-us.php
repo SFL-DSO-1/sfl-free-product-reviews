@@ -6,14 +6,14 @@
             <option value="">(select one)</option>
             <option>Gluten Free Banana Chocolate Chip Cookies 12 Ct.</option>
             <option>Irresistible Winner Peanut Butter Cookies 12 Ct.</option>
-            <!--<option>Keto Triple Chocolate Protein Bars 12 Ct.</option>-->
+            <!--<option>Keto Triple Choco Crisp Protein Bars 12 Ct.</option>-->
             <!--<option>S'mores Protein Bars 12 Ct.</option>-->
             <option>Cinnamon Pecan Protein Bars 12 Ct.</option>
             <!--<option>Strawberry &amp; Cream Protein Bars 12 Ct.</option>-->
             <option>Irresistible Winner Chocolate Cookies 12 Ct.</option>
             <!--<option>Low Sugar Choco Crisp Protein Bars 12 Ct.</option>-->
             <!--<option>Sleep &amp; Relax 7 Day</option>-->
-            <!--<option>Low Sugar Luscious Lemon Protein Bars 12 Ct.</option>-->
+            <!--<option>Luscious Lemon Protein Bars 12 Ct.</option>-->
             <!--<option>Low Sugar Peanut Butter Protein Bars 12 Ct.</option>-->
             <!--<option>Coffee Latte Protein Bars 12 Ct.</option>-->
             <!--<option>Low Sugar Caramel Almond Protein Bars 12 Ct.</option>-->

@@ -4,31 +4,16 @@
         <label for="freeProduct" value="select free product"></label>
         <select name="freeProduct" id="freeProduct" class="form-control" required>
             <option value="">(select one)</option>
-            <option>Strawberry & Cream Protein Bars 12 Ct.</option>
-            <option>Keto Triple Choco Crisp Protein Bar 12 Ct.</option>
-            <option>S'mores Protein Bars 12 Ct.</option>
-            <option>Variety Protein Bar Box 18 Ct.</option>
-            <option>Luscious Lemon Protein Bars 12 Ct.</option>
+            <option>Low Sugar Variety Protein Bar Box 18 Ct.</option>
+            <option>Keto Variety Protein Bar Box 18 Ct.</option>
+            <option>Low Sugar Caramel Almond Protein Bars 12 Ct.</option>
             <option>Cinnamon Pecan Protein Bars 12 Ct.</option>
-            <option>Caramel Almond Protein Bars 12 Ct.</option>
-            <option>Peanut Butter Protein Bars 12 Ct.</option>
-            <option>Choco Crisp Protein Bars 12 Ct.</option>
-            <option>Keto Triple Choco Crisp Protein Bar 12 Ct.</option>
-            <!--<option>S'mores Protein Bars 12 Ct.</option>-->
-            <!--<option>Cinnamon Pecan Protein Bars 12 Ct.</option>-->
-            <!--<option>Strawberry &amp; Cream Protein Bars 12 Ct.</option>-->
-           <!-- <option>Irresistible Winner Chocolate Cookies 12 Ct.</option>-->
-            <!--<option>Low Sugar Choco Crisp Protein Bars 12 Ct.</option>-->
-            <!--<option>Sleep &amp; Relax 7 Day</option>-->
-            <!--<option>Low Sugar Luscious Lemon Protein Bars 12 Ct.</option>-->
-            <!--<option>Low Sugar Peanut Butter Protein Bars 12 Ct.</option>-->
-            <!--<option>Coffee Latte Protein Bars 12 Ct.</option>-->
-            <!--<option>Low Sugar Caramel Almond Protein Bars 12 Ct.</option>-->
-            <!--<option>Vitamin B12 Gummies 60 Ct.</option>-->
-            <!--<option>Vitamin D3 Gummies 60Ct Mixed Flavor - Orange, Lemon, Strawberry</option>-->
-            <!--<option>Melatonin & Magnesium Gummies 60 Ct.</option>-->
-            <!--<option>Multivitamin 90 Ct.</option>-->
-          <!-- <option>Irresistible Winner Chocolate Banana Cookies 12 Ct.</option>-->
+            <option>Low Sugar Choco Crisp Protein Bars 12 Ct.</option>
+            <option>Keto Triple Choco Crisp Protein Bars 12 Ct.</option>
+            <option>Luscious Lemon Protein Bars 12 Ct.</option>
+            <option>Low Sugar Peanut Butter Protein Bars 12 Ct.</option>
+            <option>S'mores Protein Bars 12 Ct.</option>
+            <option>Strawberry & Cream Protein Bars 12 Ct.</option>
         </select>
         <p class="warningText" id="freeProductWarning"><small>*Please make selection</small></p>
         <input type="hidden" id="sku" name="sku" value="">
