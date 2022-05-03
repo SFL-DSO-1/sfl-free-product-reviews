@@ -4,7 +4,6 @@ Main Style Sheet for Free Product Landing Page
     - Theme Styles
     - Global Styles
     - Header Styles
-    - Jumbotron Styles
     - Start Main Content(View) Styles
 -----*/
 
@@ -44,25 +43,22 @@ Main Style Sheet for Free Product Landing Page
 /*----- End Global Styles -----*/
 
 /*----- Start Header Styles -----*/
-.jumbotron {
-    background-image: url('https://storage.googleapis.com/product-review-landing-pages/sfl-18ctvarpack/SFL-WB-SHOPF-ProductP-ProteinBars-A.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: orange;
-    margin-bottom: 50px;
-}
-/*----- End Header Styles -----*/
-
-/*----- Start Jumbotron Styles -----*/
 .navbar-brand {
     padding: 0;
 }
 .navabr h1 {
     text-align: center;
 }
-/*----- End Jumbotron Styles -----*/
+/*----- End Header Styles -----*/
 
 /*----- Start Main Content Styles -----*/
+.bannerImg {
+    padding: 0;
+}
+.bannerImg img {
+    width: 100%;
+    height: auto;
+}
 .view {
     display: none;
     margin-top: 20px;

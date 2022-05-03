@@ -18,6 +18,7 @@
 
 ## Release History ##
 
+* v3.2.3 - 05/03/2022 - Updated Banner Image.
 * v3.2.2 - 03/16/2022 - SKU Script Refactor. Update Options.
 * v3.2.1 - 03/15/2022 - US Low Sugar Protein Bars Selector Version.
 * v3.1.1 - 02/24/2022 - Sku.js clean up.

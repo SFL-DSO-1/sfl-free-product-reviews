@@ -32,10 +32,8 @@
 
     <main role="main">
 
-        <div class="jumbotron">
-            <div class="container">
-
-            </div>
+        <div class="container-fluid bannerImg">
+            <img src="https://storage.googleapis.com/product-review-landing-pages/banners/SFL-WB-SHOPF-ProductP-AllPB.jpg" />
         </div>
 
         <form id="freeProductForm">
