@@ -18,6 +18,7 @@
 
 ## Release History ##
 
+* v3.2.5 - 06/04/2022 - Temp protein bars only for US generic page.
 * v3.2.4 - 05/03/2022 - Progress Bar Spacing.
 * v3.2.3 - 05/03/2022 - Updated Banner Image.
 * v3.2.2 - 03/16/2022 - SKU Script Refactor. Update Options.
