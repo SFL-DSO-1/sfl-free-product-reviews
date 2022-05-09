@@ -1,13 +1,13 @@
 <div class="view" id="view-04">
     <h2>Select Your Free Product</h2>
-    <div class="form-group col-md-4">
+    <div class="form-group col-md-8">
         <label for="freeProduct" value="select free product"></label>
         <select name="freeProduct" id="freeProduct" class="form-control" required>
             <option value="">(select one)</option>
             <option>Caramel Almond Protein Bars 12 Ct.</option>
-            <option>Irresistible Winner Chocolate Banana Cookies 12 Ct.</option>
-            <option>Irresistible Winner Chocolate Cookies 12 Ct.</option>
-            <option>Irresistible Winner Peanut Butter Cookies 12 Ct.</option>
+            <option>Irresistible Chocolate Banana Cookies 12 Ct.</option>
+            <option>Irresistible Chocolate Cookies 12 Ct.</option>
+            <option>Irresistible Peanut Butter Cookies 12 Ct.</option>
             <option>Peanut Butter Protein Bars 12 Ct.</option>
             <option>Pumpkin Spice Cookies 12 Ct.</option>
         </select>
