@@ -33,7 +33,7 @@
     <main role="main">
 
         <div class="container-fluid bannerImg">
-            <img src="https://storage.googleapis.com/product-review-landing-pages/banners/SFL-WB-SHOPF-ProductP-AllPB.jpg" />
+            <img src="<?php echo $img_header['url'] ?>" alt="<?php echo $img_header['alt'] ?>" />
         </div>
 
         <form id="freeProductForm">

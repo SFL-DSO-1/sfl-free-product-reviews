@@ -4,9 +4,8 @@
         <label for="freeProduct" value="select free product"></label>
         <select name="freeProduct" id="freeProduct" class="form-control" required>
             <option value="">(select one)</option>
-            <option>(2) Blueberry Cookie Sleeves</option>
             <option>Chocolate Chip Cookies 12 Ct.</option>
-            <option>Gluten-Free Banana Chocolate Chip Cookies 12 ct.</option>
+            <option>Gluten Free Banana Chocolate Chip Cookies 12 Ct.</option>
             <option>Irresistible Chocolate Banana Cookies 12 Ct.</option>
             <option>Irresistible Chocolate Cookies 12 Ct.</option>
             <option>Irresistible Peanut Butter Cookies 12 Ct.</option>

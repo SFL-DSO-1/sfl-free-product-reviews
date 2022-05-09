@@ -32,10 +32,8 @@
 
     <main role="main">
 
-        <div class="jumbotron">
-            <div class="container">
-
-            </div>
+        <div class="container-fluid bannerImg">
+            <img src="<?php echo $img_header['url'] ?>" alt="<?php echo $img_header['alt'] ?>" />
         </div>
 
         <form id="freeProductForm">
