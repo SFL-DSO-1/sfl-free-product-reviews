@@ -10,7 +10,7 @@
 
     <?php include 'includes/gtm-head.php'; ?>
 
-    <title><?php echo $title; ?> | <?php echo $descriptionMain; ?></title>
+    <title><?php echo $title; ?> | <?php echo $description_main; ?></title>
 
     <link href="vendor/bootstrap-v4.0.0/boostrap.min.css" rel="stylesheet">
     <link href="assets/styles/main.css" rel="stylesheet">

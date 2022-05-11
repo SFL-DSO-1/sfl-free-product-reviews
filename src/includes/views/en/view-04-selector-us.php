@@ -5,11 +5,13 @@
         <select name="freeProduct" id="freeProduct" class="form-control" required>
             <option value="">(select one)</option>
             <option>Caramel Almond Protein Bars 12 Ct.</option>
+            <option>Cortisol Balancer 90 Ct.</option>
+            <option>Choco Crisp Protein Bars 12 Ct.</option>
+            <option>Hunger Block 90 Ct.</option>
             <option>Irresistible Chocolate Banana Cookies 12 Ct.</option>
             <option>Irresistible Chocolate Cookies 12 Ct.</option>
-            <option>Irresistible Peanut Butter Cookies 12 Ct.</option>
-            <option>Peanut Butter Protein Bars 12 Ct.</option>
             <option>Pumpkin Spice Cookies 12 Ct.</option>
+            <option>Vitamin C Gummies 60 Ct.</option>
         </select>
         <p class="warningText" id="freeProductWarning"><small>*Please make selection</small></p>
         <input type="hidden" id="sku" name="sku" value="">
