@@ -12,7 +12,7 @@
 
     <title><?php echo $title; ?> | <?php echo $description_main; ?></title>
 
-    <link href="vendor/bootstrap-v4.0.0/boostrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap-v4.0.0/bootstrap.min.css" rel="stylesheet">
     <link href="assets/styles/main.css" rel="stylesheet">
 
     <?php include 'includes/gtag.php'; ?>
@@ -24,7 +24,7 @@
 </head>
 
 <body>
-<?php include 'includes/gtm-body.php'; ?>
+    <?php include 'includes/gtm-body.php'; ?>
     <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="#"><img class="img-fluid" src="<?php echo $img_logo['url'] ?>" alt="<?php echo $img_logo['alt'] ?>"></a>
         <h1><?php echo $title; ?></h1>
@@ -32,14 +32,8 @@
 
     <main role="main">
 
-        <div class="jumbotron">
-            <div class="container">
-
-            </div>
-        </div>
-
-        <p style="text-align: center;"><a style="font-size: 2em;" class="btn btn-primary btn-lg" id="btn-02" href="ca-en.php" role="button">English &raquo;</a></p>
-        <p style="text-align: center;"><a style="font-size: 2em;" class="btn btn-primary btn-lg" id="btn-02" href="ca-fr.php" role="button">Français &raquo;</a></p>
+        <p class="btnLarge"><a class="btn btn-primary btn-lg" href="ca-en.php" role="button">English &raquo;</a></p>
+        <p class="btnLarge"><a class="btn btn-primary btn-lg" href="ca-fr.php" role="button">Français &raquo;</a></p>
 
     </main>
 

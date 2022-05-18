@@ -12,7 +12,7 @@
 
     <title><?php echo $title; ?> | <?php echo $description_main; ?></title>
 
-    <link href="<?php echo $bootstrap_cc_path ?>" rel="stylesheet">
+    <link href="vendor/bootstrap-v4.0.0/bootstrap.min.css" rel="stylesheet">
     <link href="assets/styles/main.css" rel="stylesheet">
 
     <?php include 'includes/gtag.php'; ?>
@@ -43,11 +43,7 @@
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width:0%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">0%</div>
                         </div>
-                        <?php include 'includes/views/en/view-01.php'; ?>
-                        <?php include 'includes/views/en/view-02.php'; ?>
-                        <?php include 'includes/views/en/view-03.php'; ?> 
-                        <?php include 'includes/views/en/view-04-selector-us.php'; ?>
-                        <?php include 'includes/views/en/view-05-us.php'; ?>
+                        <?php include 'includes/views/en/view-00.php'; ?>
                     </div><!-- /.col -->
                 </div><!-- /.row -->
                 <hr>

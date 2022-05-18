@@ -18,7 +18,8 @@
 
 ## Release History ##
 
-* v3.2.7 - 06/11/2022 - New default U.S. view. Title bugfix.
+* v3.2.8 - 05/18/2022 - 404 page. Dynamic Bootstrap link.
+* v3.2.7 - 05/11/2022 - New default U.S. view. Title bugfix.
 * v3.2.6 - 05/09/2022 - SKU, Images, H1 Updates.
 * v3.2.5 - 05/04/2022 - Temp protein bars only for US generic page.
 * v3.2.4 - 05/03/2022 - Progress Bar Spacing.

@@ -3,6 +3,7 @@
 	//General
 		$title = 'Free Product!';
 		$description_main = 'Get your free Smart for Life product now!';
+        $bootstrap_cc_path = 'vendor/bootstrap-v4.0.0/bootstrap.min.css';
 		$author = 'Doctor\'s Scientific Organica, LLC';
         $img_header = array(
             'alt' => 'A flavor for every day of the week',

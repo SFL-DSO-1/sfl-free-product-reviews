@@ -40,6 +40,12 @@ Main Style Sheet for Free Product Landing Page
     .form-row {
         margin-bottom: 20px;
     }
+    .btnLarge {
+        text-align: center;
+    }
+    .btnLarge a {
+        font-size: 2em;
+    }
 /*----- End Global Styles -----*/
 
 /*----- Start Header Styles -----*/
@@ -66,7 +72,7 @@ Main Style Sheet for Free Product Landing Page
 .warningText {
     display: none;
 }
-#view-01 {
+#view-00, #view-01 {
     display: block;
 }
 .progress {
