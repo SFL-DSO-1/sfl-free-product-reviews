@@ -32,10 +32,8 @@
 
     <main role="main">
 
-        <div class="jumbotron">
-            <div class="container">
-
-            </div>
+        <div class="container-fluid bannerImg">
+            <img src="<?php echo $img_header['url'] ?>" alt="<?php echo $img_header['alt'] ?>" />
         </div>
 
         <form id="freeProductForm">
@@ -48,15 +46,15 @@
                         <?php include 'includes/views/en/view-01.php'; ?>
                         <?php include 'includes/views/en/view-02.php'; ?>
                         <?php include 'includes/views/en/view-03.php'; ?>
-                        <?php include 'includes/views/en/view-04-selector-ca.php'; ?>
-                        <?php include 'includes/views/en/view-05-ca.php'; ?>
+                        <?php include 'includes/views/en/view-04-selector-us-sp.php'; ?>
+                        <?php include 'includes/views/en/view-05-us.php'; ?>
                     </div><!-- /.col -->
                 </div><!-- /.row -->
                 <hr>
             </div> <!-- /.container -->
             <input id="date" name="date" type="hidden">
             <input id="time" name="time" type="hidden">
-            <input id="campaignId" name="campaignId" type="hidden" value="CRD-CA-QR-01">
+            <input id="campaignId" name="campaignId" type="hidden" value="CRD-US-QR-SP-01">
         </form>
 
     </main>

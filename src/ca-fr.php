@@ -56,6 +56,7 @@
             </div> <!-- /.container -->
             <input id="date" name="date" type="hidden">
             <input id="time" name="time" type="hidden">
+            <input id="campaignId" name="campaignId" type="hidden" value="CRD-CA-QR-01">
         </form>
 
     </main>

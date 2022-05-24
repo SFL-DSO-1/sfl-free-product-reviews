@@ -18,6 +18,7 @@
 
 ## Release History ##
 
+* v3.2.10 - 05/24/2022 - Campaign IDs.
 * v3.2.9 - 05/24/2022 - Canada styling bugfix. 
 * v3.2.8 - 05/18/2022 - 404 page. Dynamic Bootstrap link.
 * v3.2.7 - 05/11/2022 - New default U.S. view. Title bugfix.
