@@ -12,7 +12,7 @@
 
     <title><?php echo $title; ?> | <?php echo $description_main; ?></title>
 
-    <link href="vendor/bootstrap-v4.0.0/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo $bootstrap_cc_path ?>" rel="stylesheet">
     <link href="assets/styles/main.css" rel="stylesheet">
 
     <?php include 'includes/gtag.php'; ?>
