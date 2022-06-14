@@ -18,6 +18,7 @@
 
 ## Release History ##
 
+* v3.2.11 - 06/14/2022 - Google Analytics 4 Install.
 * v3.2.10 - 05/24/2022 - Campaign IDs.
 * v3.2.9 - 05/24/2022 - Canada styling bugfix. 
 * v3.2.8 - 05/18/2022 - 404 page. Dynamic Bootstrap link.
