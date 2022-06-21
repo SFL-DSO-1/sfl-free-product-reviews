@@ -11,7 +11,6 @@ function formSentCaFrench(){
 function submitGeneric() {
     console.log('BV U.S. review container called');
     $BV.ui('rr', 'submit_generic', {
-        campaignId : 'sfl-free-product-us-01',
         familyProductId : 'country-us'
     });
 }
@@ -19,7 +18,6 @@ function submitGeneric() {
 function submitGenericCa() {
     console.log('BV Canada review container called');
     $BV.ui('rr', 'submit_generic', {
-        campaignId: 'sfl-free-product-ca-01',
         familyProductId : 'country-ca'
     });
 }

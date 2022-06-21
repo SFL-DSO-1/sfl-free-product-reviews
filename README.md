@@ -3,7 +3,7 @@
 ## What is this repository for ##
 
 * Smart for Life Free Product for Review
-* Version 3.2
+* Version 3.3
 
 ## How do I get set up ##
 
