@@ -11,14 +11,14 @@ function formSentCaFrench(){
 function submitGeneric() {
     console.log('BV U.S. review container called');
     $BV.ui('rr', 'submit_generic', {
-        familyProductId : 'country-us'
+        /* familyProductId : 'country-us' */
     });
 }
 
 function submitGenericCa() {
     console.log('BV Canada review container called');
     $BV.ui('rr', 'submit_generic', {
-        familyProductId : 'country-ca'
+        /* familyProductId : 'country-ca'*/
     });
 }
 function timestampInit() {
