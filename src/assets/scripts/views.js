@@ -9,9 +9,18 @@ function formSentCaFrench(){
 };
 
 function submitGeneric() {
-    console.log('BV review container called');
+    console.log('BV U.S. review container called');
     $BV.ui('rr', 'submit_generic', {
-        bvcampaignId: 'sfl-free-product-01'
+        campaignId : 'sfl-free-product-us-01',
+        familyProductId : 'country-us'
+    });
+}
+
+function submitGenericCa() {
+    console.log('BV Canada review container called');
+    $BV.ui('rr', 'submit_generic', {
+        campaignId: 'sfl-free-product-ca-01',
+        familyProductId : 'country-ca'
     });
 }
 function timestampInit() {
@@ -65,6 +74,12 @@ $('#btn-02').click(function(){
 $('#btn-03').click(function(){
     $('#view-03').hide();
     submitGeneric();
+    $('#view-04').show(); 
+    $('.progress-bar').css('width','60%').text('60%');
+});
+$('#btn-03-ca').click(function(){
+    $('#view-03').hide();
+    submitGenericCa();
     $('#view-04').show(); 
     $('.progress-bar').css('width','60%').text('60%');
 });
