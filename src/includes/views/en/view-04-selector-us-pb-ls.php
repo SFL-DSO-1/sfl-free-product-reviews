@@ -4,12 +4,12 @@
         <label for="freeProduct" value="select free product"></label>
         <select name="freeProduct" id="freeProduct" class="form-control" required>
             <option value="">(select one)</option>
-            <option>Variety Protein Bar Box 18 Ct.</option>
-            <option>Keto Variety Protein Bar Box 18 Ct.</option>
+            <!--<option>Variety Protein Bar Box 18 Ct.</option>-->
+            <!--<option>Keto Variety Protein Bar Box 18 Ct.</option>-->
             <option>Caramel Almond Protein Bars 12 Ct.</option>
             <option>Cinnamon Pecan Protein Bars 12 Ct.</option>
             <option>Choco Crisp Protein Bars 12 Ct.</option>
-            <option>Keto Triple Choco Crisp Protein Bars 12 Ct.</option>
+            <!--<option>Keto Triple Choco Crisp Protein Bars 12 Ct.</option>-->
             <option>Luscious Lemon Protein Bars 12 Ct.</option>
             <option>Peanut Butter Protein Bars 12 Ct.</option>
             <option>S'mores Protein Bars 12 Ct.</option>

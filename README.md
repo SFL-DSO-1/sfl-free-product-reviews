@@ -18,6 +18,7 @@
 
 ## Release History ##
 
+* v3.3.2 - 10/10/2022 - Updated US PB-LS options.
 * v3.3.1 - 07/29/2022 - Added Powered by SMFL.
 * v3.3.0 - 06/21/2022 - Separated US and Canada Product Pickers. Added BV Campaigns.
 * v3.2.11 - 06/14/2022 - Google Analytics 4 Install.
