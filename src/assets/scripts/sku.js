@@ -54,6 +54,11 @@ $('#freeProduct').change(function(){
             console.log('Variety Protein Bar Box 18 Ct.');
         break;
 
+        case 'Gourmet Salted Peanut Butter Protein Bars 12 Ct.':
+            $('#sku').val('SFLPB1X12CTGURMETSALTEDPB');
+            console.log('Gourmet Salted Peanut Butter Protein Bars 12 Ct.');
+        break;
+
         /* Cookies */
         case 'Chocolate Chip Cookies 12 Ct.':
             $('#sku').val('SFLCK1X12CTCHOCOC');

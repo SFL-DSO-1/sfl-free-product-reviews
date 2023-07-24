@@ -18,6 +18,7 @@
 
 ## Release History ##
 
+* v3.3.3 - 07/24/2023 - Combined coookies, pb, suppl view.
 * v3.3.2 - 10/10/2022 - Updated US PB-LS options.
 * v3.3.1 - 07/29/2022 - Added Powered by SMFL.
 * v3.3.0 - 06/21/2022 - Separated US and Canada Product Pickers. Added BV Campaigns.
