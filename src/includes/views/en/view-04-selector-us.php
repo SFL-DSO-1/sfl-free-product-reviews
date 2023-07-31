@@ -6,10 +6,10 @@
             <option value="">(select one)</option>
             <option>Caramel Almond Protein Bars 12 Ct.</option>
             <option>Choco Crisp Protein Bars 12 Ct.</option>
-            <option>Gluten Free Banana Chocolate Chip Cookies 12 Ct.</option>
             <option>Gourmet Salted Peanut Butter Protein Bars 12 Ct.</option>
             <option>Hunger Block 90 Ct.</option>
             <option>Irresistible Chocolate Cookies 12 Ct.</option>
+            <option>Irresistible Peanut Butter Cookies 12 Ct.</option>
         </select>
         <p class="warningText" id="freeProductWarning"><small>*Please make selection</small></p>
         <input type="hidden" id="sku" name="sku" value="">
