@@ -18,7 +18,8 @@
 
 ## Release History ##
 
-* v3.3.4 - 047/31/2023 - Update Options.
+* v3.3.5 - 08/28/2023 - Update Options.
+* v3.3.4 - 07/31/2023 - Update Options.
 * v3.3.3 - 07/24/2023 - Combined coookies, pb, suppl view.
 * v3.3.2 - 10/10/2022 - Updated US PB-LS options.
 * v3.3.1 - 07/29/2022 - Added Powered by SMFL.

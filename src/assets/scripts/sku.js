@@ -59,6 +59,16 @@ $('#freeProduct').change(function(){
             console.log('Gourmet Salted Peanut Butter Protein Bars 12 Ct.');
         break;
 
+        case 'Gourmet Birthday Cake Protein Bars 12 Ct.':
+            $('#sku').val('SFLPB1X12CTGURMETBDAYCAKE');
+            console.log('Gourmet Birthday Cake Protein Bars 12 Ct.');
+        break;
+
+        case 'Gourmet Toasted Caramel Almond Protein Bars 12 Ct.':
+            $('#sku').val('SFLPB1X12CTGURMETTOATALMCAR');
+            console.log('Gourmet Toasted Caramel Almond Protein Bars 12 Ct.');
+        break;
+
         /* Cookies */
         case 'Chocolate Chip Cookies 12 Ct.':
             $('#sku').val('SFLCK1X12CTCHOCOC');
