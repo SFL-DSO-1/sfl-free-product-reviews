@@ -36,26 +36,7 @@
             <img src="<?php echo $img_header['url'] ?>" alt="<?php echo $img_header['alt'] ?>" />
         </div>
 
-        <form id="freeProductForm">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width:0%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">0%</div>
-                        </div>
-                        <?php include 'includes/views/en/view-01.php'; ?>
-                        <?php include 'includes/views/en/view-02.php'; ?>
-                        <?php include 'includes/views/en/view-03.php'; ?>
-                        <?php include 'includes/views/en/view-04-selector-us-ck.php'; ?>
-                        <?php include 'includes/views/en/view-05-us.php'; ?>
-                    </div><!-- /.col -->
-                </div><!-- /.row -->
-                <hr>
-            </div> <!-- /.container -->
-            <input id="date" name="date" type="hidden">
-            <input id="time" name="time" type="hidden">
-        </form>
-
+        <?php include 'includes/views/en/suspended.php'; ?>
     </main>
 
     <?php include 'includes/footer.php' ?>

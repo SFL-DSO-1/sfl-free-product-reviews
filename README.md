@@ -3,7 +3,7 @@
 ## What is this repository for ##
 
 * Smart for Life Free Product for Review
-* Version 3.3
+* Version 3.4
 
 ## How do I get set up ##
 
@@ -18,6 +18,7 @@
 
 ## Release History ##
 
+* v3.4.0 - 10/30/2023 - Suspended Program View.
 * v3.3.5 - 08/28/2023 - Update Options.
 * v3.3.4 - 07/31/2023 - Update Options.
 * v3.3.3 - 07/24/2023 - Combined coookies, pb, suppl view.

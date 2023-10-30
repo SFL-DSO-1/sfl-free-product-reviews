@@ -38,26 +38,7 @@
             </div>
         </div>
 
-        <form id="freeProductForm">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width:0%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">0%</div>
-                        </div>
-                        <?php include 'includes/views/fr/view-01-fr.php'; ?>
-                        <?php include 'includes/views/fr/view-02-fr.php'; ?>
-                        <?php include 'includes/views/fr/view-03-fr.php'; ?>
-                        <?php include 'includes/views/fr/view-04-selector-ca-fr.php'; ?>
-                        <?php include 'includes/views/fr/view-05-ca-fr.php'; ?>
-                    </div><!-- /.col -->
-                </div><!-- /.row -->
-                <hr>
-            </div> <!-- /.container -->
-            <input id="date" name="date" type="hidden">
-            <input id="time" name="time" type="hidden">
-            <input id="campaignId" name="campaignId" type="hidden" value="CRD-CA-QR-01">
-        </form>
+        <?php include 'includes/views/en/suspended.php'; ?>
 
     </main>
 

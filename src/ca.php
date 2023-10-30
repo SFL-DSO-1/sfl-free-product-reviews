@@ -30,12 +30,7 @@
         <h1><?php echo $title; ?></h1>
     </nav>
 
-    <main role="main">
-
-        <p class="btnLarge"><a class="btn btn-primary btn-lg" href="ca-en.php" role="button">English &raquo;</a></p>
-        <p class="btnLarge"><a class="btn btn-primary btn-lg" href="ca-fr.php" role="button">Français &raquo;</a></p>
-
-    </main>
+    <?php include 'includes/views/en/suspended.php'; ?>
 
     <?php include 'includes/footer.php' ?>
     
